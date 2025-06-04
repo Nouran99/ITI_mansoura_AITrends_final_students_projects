@@ -1,0 +1,74 @@
+{
+  "results": [
+    {
+      "title": "Self-supervised representation learning: Introduction, advances, and challenges",
+      "url": "https://ieeexplore.ieee.org/abstract/document/9770283/",
+      "content": "… self-supervised algorithms and applications that address learning general-purpose features— or representations… We then contrast it to other common learning paradigms (see Figure 1). …",
+      "score": 1.0,
+      "search_query": "self-supervised representation learning AND contrastive self-supervised learning"
+    },
+    {
+      "title": "Mixing up contrastive learning: Self-supervised representation learning for time series",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0167865522000502",
+      "content": "… Mixup contrastive learning We outline the proposed framework for contrastive representation learning of time series. We propose a new contrastive loss that naturally exploits the …",
+      "score": 1.0,
+      "search_query": "self-supervised representation learning AND contrastive self-supervised learning"
+    },
+    {
+      "title": "Contrasting contrastive self-supervised representation learning pipelines",
+      "url": "http://openaccess.thecvf.com/content/ICCV2021/html/Kotar_Contrasting_Contrastive_Self-Supervised_Representation_Learning_Pipelines_ICCV_2021_paper.html",
+      "content": "… Our goal is to study recently proposed contrastive selfsupervised representation learning … algorithms we consider are contrastive self-supervised learning approaches that have recently …",
+      "score": 1.0,
+      "search_query": "self-supervised representation learning AND contrastive self-supervised learning"
+    },
+    {
+      "title": "Solving inefficiency of self-supervised representation learning",
+      "url": "http://openaccess.thecvf.com/content/ICCV2021/html/Wang_Solving_Inefficiency_of_Self-Supervised_Representation_Learning_ICCV_2021_paper.html",
+      "content": "… contrastive learning methods and attribute their low learning inefficiency to the under-clustering and over-clustering, which result in unnecessary harmful representation learning just to …",
+      "score": 1.0,
+      "search_query": "self-supervised representation learning AND contrastive self-supervised learning"
+    },
+    {
+      "title": "Contrastive self-supervised representation learning for sensing signals from the time-frequency perspective",
+      "url": "https://ieeexplore.ieee.org/abstract/document/9522151/",
+      "content": "… Abstract—This paper presents a contrastive self-supervised representation learning … for deep learning from frequency domain data. Contrastive self-supervised representation learning …",
+      "score": 1.0,
+      "search_query": "self-supervised representation learning AND contrastive self-supervised learning"
+    },
+    {
+      "title": "Self-supervised learning: Generative or contrastive",
+      "url": "https://ieeexplore.ieee.org/abstract/document/9462394/",
+      "content": "… -to-date review of selfsupervised learning for representation. We … the frontier ideas of self-supervised learning. We categorize … future direction for self-supervised representation …",
+      "score": 1.0,
+      "search_query": "self-supervised representation learning AND contrastive self-supervised learning"
+    },
+    {
+      "title": "Self-supervised representation learning from 12-lead ECG data",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0010482521009082",
+      "content": "… In a first step, we learn contrastive representations and evaluate their quality based on linear evaluation performance on a recently established, comprehensive, clinical ECG …",
+      "score": 1.0,
+      "search_query": "self-supervised representation learning AND contrastive self-supervised learning"
+    },
+    {
+      "title": "Regioncl: Exploring contrastive region pairs for self-supervised representation learning",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-031-19827-4_28",
+      "content": "… Different from current methods that only use the cropped regions, we take both the cropped and remained regions into consideration for self-supervised learning. Given two different …",
+      "score": 1.0,
+      "search_query": "self-supervised representation learning AND contrastive self-supervised learning"
+    },
+    {
+      "title": "Self-supervised contrastive representation learning for semi-supervised time-series classification",
+      "url": "https://ieeexplore.ieee.org/abstract/document/10233092/",
+      "content": "… useful representations … representation learning framework via Temporal and Contextual Contrasting (TS-TCC) that learns representations from unlabeled data with contrastive learning. …",
+      "score": 1.0,
+      "search_query": "self-supervised representation learning AND contrastive self-supervised learning"
+    },
+    {
+      "title": "Groupcontrast: Semantic-aware self-supervised representation learning for 3d understanding",
+      "url": "http://openaccess.thecvf.com/content/CVPR2024/html/Wang_GroupContrast_Semantic-aware_Self-supervised_Representation_Learning_for_3D_Understanding_CVPR_2024_paper.html",
+      "content": "… Using noisy group labels for contrastive representation learning may confuse the model. … and incorporate confidence weights in contrastive representation learning, to alleviate the ad…",
+      "score": 1.0,
+      "search_query": "self-supervised representation learning AND contrastive self-supervised learning"
+    }
+  ]
+}

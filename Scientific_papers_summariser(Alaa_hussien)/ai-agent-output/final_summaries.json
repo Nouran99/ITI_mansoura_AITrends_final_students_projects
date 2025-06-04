@@ -1,0 +1,54 @@
+{
+  "summaries": [
+    {
+      "title": "Self-supervised representation learning: Introduction, advances, and challenges",
+      "url": "https://ieeexplore.ieee.org/abstract/document/9770283/",
+      "summary": "This paper explores self-supervised algorithms and their applications in learning general-purpose features or representations.  It contrasts this approach with other learning paradigms."
+    },
+    {
+      "title": "Mixing up contrastive learning: Self-supervised representation learning for time series",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0167865522000502",
+      "summary": "This research proposes a new contrastive loss function for self-supervised representation learning in time series data, leveraging a framework that exploits the inherent structure of time series."
+    },
+    {
+      "title": "Contrasting contrastive self-supervised representation learning pipelines",
+      "url": "http://openaccess.thecvf.com/content/ICCV2021/html/Kotar_Contrasting_Contrastive_Self-Supervised_Representation_Learning_Pipelines_ICCV_2021_paper.html",
+      "summary": "This paper analyzes various contrastive self-supervised representation learning approaches.  It examines over 700 training experiments across different encoders, datasets, and downstream tasks to understand the influence of training methods and datasets on performance."
+    },
+    {
+      "title": "Solving inefficiency of self-supervised representation learning",
+      "url": "http://openaccess.thecvf.com/content/ICCV2021/html/Wang_Solving_Inefficiency_of_Self-Supervised_Representation_Learning_ICCV_2021_paper.html",
+      "summary": "This research addresses the low learning efficiency of contrastive learning methods. It identifies 'under-clustering' and 'over-clustering' problems and proposes a novel framework using a truncated triplet loss to improve efficiency."
+    },
+    {
+      "title": "Contrastive self-supervised representation learning for sensing signals from the time-frequency perspective",
+      "url": "https://ieeexplore.ieee.org/abstract/document/9522151/",
+      "summary": "This paper presents a contrastive self-supervised representation learning approach for deep learning from frequency domain data."
+    },
+    {
+      "title": "Self-supervised learning: Generative or contrastive",
+      "url": "https://ieeexplore.ieee.org/abstract/document/9462394/",
+      "summary": "This paper provides a review of self-supervised learning for representation, categorizing approaches and exploring future directions."
+    },
+    {
+      "title": "Self-supervised representation learning from 12-lead ECG data",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0010482521009082",
+      "summary": "This study uses contrastive representation learning on 12-lead ECG data, evaluating performance on a clinical ECG dataset."
+    },
+    {
+      "title": "Regioncl: Exploring contrastive region pairs for self-supervised representation learning",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-031-19827-4_28",
+      "summary": "This research explores contrastive self-supervised learning by considering both cropped and remaining regions for improved representation learning."
+    },
+    {
+      "title": "Self-supervised contrastive representation learning for semi-supervised time-series classification",
+      "url": "https://ieeexplore.ieee.org/abstract/document/10233092/",
+      "summary": "This paper introduces a temporal and contextual contrasting framework (TS-TCC) for learning representations from unlabeled time-series data using contrastive learning."
+    },
+    {
+      "title": "Groupcontrast: Semantic-aware self-supervised representation learning for 3d understanding",
+      "url": "http://openaccess.thecvf.com/content/CVPR2024/html/Wang_GroupContrast_Semantic-aware_Self-supervised_Representation_Learning_for_3D_Understanding_CVPR_2024_paper.html",
+      "summary": "This research proposes GroupContrast, a method that combines segment grouping and semantic-aware contrastive learning for improved 3D representation learning from point clouds, addressing the semantic conflict problem in existing approaches."
+    }
+  ]
+}

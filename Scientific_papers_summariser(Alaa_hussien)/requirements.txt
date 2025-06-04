@@ -1,0 +1,6 @@
+crewai
+pydantic
+serpapi
+python-dotenv
+beautifulsoup4
+requests
