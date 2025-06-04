@@ -1,0 +1,17 @@
+<h3>age</h3>
+<ul>- Skewness: -0.13
+- Fairly symmetric
+- Outliers: 0</ul>
+<h3>Experience</h3>
+<ul>- Skewness: 0.77
+- Moderately skewed
+- Outliers: 0</ul>
+<h3>Salary</h3>
+<ul>- Skewness: 0.79
+- Moderately skewed
+- Outliers: 0</ul>
+<h3>Name</h3><ul>
+- Krish: 16.7%
+- Sudhanshu: 16.7%
+- Sunny: 16.7%
+</ul>

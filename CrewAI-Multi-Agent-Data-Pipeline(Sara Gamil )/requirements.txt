@@ -1,0 +1,12 @@
+crewai
+pymupdf
+serpapi
+python-dotenv
+streamlit
+seaborn
+scikit-learn
+matplotlib
+pandas
+litellm
+pysqlite3_binary
+google-search-results

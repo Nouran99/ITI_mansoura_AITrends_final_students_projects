@@ -1,0 +1,36 @@
+📊 **PREPROCESSING STRATEGY REPORT** 📊
+
+📁 File: data\test.csv
+
+
+🧠 Based on EDA Insights:
+🔍 **DATA EXPLORATION REPORT** 🔍
+
+🧾 Shape of the data: 106 rows, 17 columns
+
+📋 Columns and Data Types:
+id                                  int64
+Gender                             object
+Age                               float64
+Height                            float64
+Weight                            float64
+family_history_with_overweight     object
+FAVC                               object
+FCVC                              float64
+NCP                               float64
+CAEC                               object
+SMOKE                              object
+CH2O                              float64
+SCC                                object
+FAF                               float64
+TUE                               float64
+CALC                               object
+MTRANS                    ...
+
+✅ Removed 0 duplicate rows.
+
+🧼 Filled missing values (numerical: median, categorical: mode).
+
+📐 Scaled numerical features using RobustScaler.
+
+🔠 Encoded: Ordinal(['CALC', 'CAEC']) + OneHot(['MTRANS', 'family_history_with_overweight', 'FAVC', 'Gender', 'SCC', 'SMOKE'])

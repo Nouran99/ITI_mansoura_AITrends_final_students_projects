@@ -1,0 +1,209 @@
+🔍 **DATA EXPLORATION REPORT** 🔍
+
+🧾 Shape of the data: 106 rows, 17 columns
+
+📋 Columns and Data Types:
+id                                  int64
+Gender                             object
+Age                               float64
+Height                            float64
+Weight                            float64
+family_history_with_overweight     object
+FAVC                               object
+FCVC                              float64
+NCP                               float64
+CAEC                               object
+SMOKE                              object
+CH2O                              float64
+SCC                                object
+FAF                               float64
+TUE                               float64
+CALC                               object
+MTRANS                             object
+dtype: object
+
+🧹 Missing Values per Column:
+id                                0
+Gender                            0
+Age                               0
+Height                            0
+Weight                            0
+family_history_with_overweight    0
+FAVC                              0
+FCVC                              0
+NCP                               0
+CAEC                              1
+SMOKE                             1
+CH2O                              1
+SCC                               1
+FAF                               1
+TUE                               1
+CALC                              1
+MTRANS                            1
+dtype: int64
+
+📊 Number of Unique Values per Column:
+id                                106
+Gender                              2
+Age                                64
+Height                             80
+Weight                             86
+family_history_with_overweight      2
+FAVC                                2
+FCVC                               29
+NCP                                20
+CAEC                                3
+SMOKE                               2
+CH2O                               56
+SCC                                 2
+FAF                                45
+TUE                                44
+CALC                                3
+MTRANS                              4
+dtype: int64
+
+📈 Descriptive Statistics (Numerical Columns):
+             id     Age  Height  Weight    FCVC     NCP    CH2O     FAF     TUE
+count    106.00  106.00  106.00  106.00  106.00  106.00  105.00  105.00  105.00
+mean   20810.50   24.42    1.71   89.61    2.46    2.69    1.94    0.86    0.60
+std       30.74    5.92    0.09   25.91    0.50    0.78    0.65    0.79    0.59
+min    20758.00   17.00    1.54   41.67    1.20    1.00    1.00    0.00    0.00
+25%    20784.25   20.40    1.63   68.12    2.00    2.99    1.33    0.00    0.00
+50%    20810.50   23.00    1.71   92.73    2.45    3.00    2.00    0.99    0.55
+75%    20836.75   26.00    1.77  111.41    3.00    3.00    2.55    1.17    1.00
+max    20863.00   55.00    1.87  133.62    3.00    4.00    3.00    3.00    2.00
+
+🔢 Descriptive Statistics (Categorical Columns):
+       Gender family_history_with_overweight FAVC       CAEC SMOKE  SCC       CALC                 MTRANS
+count     106                            106  106        105   105  105        105                    105
+unique      2                              2    2          3     2    2          3                      4
+top      Male                            yes  yes  Sometimes    no   no  Sometimes  Public_Transportation
+freq       63                             89   97         84   100  102         72                     86
+
+📌 Top Frequent Values per Column:
+
+🔹 id:
+id
+20758    1
+20759    1
+20760    1
+Name: count, dtype: int64
+
+🔹 Gender:
+Gender
+Male      63
+Female    43
+Name: count, dtype: int64
+
+🔹 Age:
+Age
+21.0    12
+26.0    11
+18.0    11
+Name: count, dtype: int64
+
+🔹 Height:
+Height
+1.70    8
+1.65    5
+1.75    3
+Name: count, dtype: int64
+
+🔹 Weight:
+Weight
+90.0    5
+75.0    4
+60.0    4
+Name: count, dtype: int64
+
+🔹 family_history_with_overweight:
+family_history_with_overweight
+yes    89
+no     17
+Name: count, dtype: int64
+
+🔹 FAVC:
+FAVC
+yes    97
+no      9
+Name: count, dtype: int64
+
+🔹 FCVC:
+FCVC
+3.000000    40
+2.000000    39
+2.938616     1
+Name: count, dtype: int64
+
+🔹 NCP:
+NCP
+3.0    70
+1.0    14
+4.0     4
+Name: count, dtype: int64
+
+🔹 CAEC:
+CAEC
+Sometimes     84
+Frequently    16
+Always         5
+Name: count, dtype: int64
+
+🔹 SMOKE:
+SMOKE
+no     100
+yes      5
+Name: count, dtype: int64
+
+🔹 CH2O:
+CH2O
+2.0    24
+1.0    16
+3.0     7
+Name: count, dtype: int64
+
+🔹 SCC:
+SCC
+no     102
+yes      3
+Name: count, dtype: int64
+
+🔹 FAF:
+FAF
+0.0    29
+1.0    22
+2.0    10
+Name: count, dtype: int64
+
+🔹 TUE:
+TUE
+0.0    36
+1.0    20
+2.0     6
+Name: count, dtype: int64
+
+🔹 CALC:
+CALC
+Sometimes     72
+no            30
+Frequently     3
+Name: count, dtype: int64
+
+🔹 MTRANS:
+MTRANS
+Public_Transportation    86
+Automobile               17
+Walking                   1
+Name: count, dtype: int64
+
+🔗 Correlation Matrix (numeric columns):
+          id   Age  Height  Weight  FCVC   NCP  CH2O   FAF   TUE
+id      1.00  0.04    0.04   -0.05  0.04  0.04 -0.10 -0.10 -0.10
+Age     0.04  1.00    0.17    0.41 -0.02 -0.06  0.09 -0.08 -0.23
+Height  0.04  0.17    1.00    0.38 -0.10  0.27  0.04  0.36 -0.01
+Weight -0.05  0.41    0.38    1.00  0.25  0.16  0.27 -0.08 -0.13
+FCVC    0.04 -0.02   -0.10    0.25  1.00  0.06  0.02 -0.15 -0.04
+NCP     0.04 -0.06    0.27    0.16  0.06  1.00  0.26  0.07  0.23
+CH2O   -0.10  0.09    0.04    0.27  0.02  0.26  1.00  0.03  0.08
+FAF    -0.10 -0.08    0.36   -0.08 -0.15  0.07  0.03  1.00  0.06
+TUE    -0.10 -0.23   -0.01   -0.13 -0.04  0.23  0.08  0.06  1.00
