@@ -10,7 +10,7 @@ Simple CrewAI-based marketing analysis system with 3 agents using Gemini 2.0 Fla
 2. Add your API key to `config/config.yaml`
 3. Install dependencies: `pip install -r requirements.txt`
 4. Create directories: `mkdir -p data/processed`
-5. Run: `python main.py`
+5. Run: `python app.py`
 
 ## Model
 Uses Google's Gemini 2.0 Flash (fast, powerful, and affordable)
@@ -28,5 +28,5 @@ marketing-system/
     │   ├── marketing_plan_agent.py
     │   └── content_planning_agent.py
     └── models/
-        └── llama_model.py
+        └── model.py
 ```
