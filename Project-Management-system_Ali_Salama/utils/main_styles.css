@@ -1,0 +1,345 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+/* Root variables for consistent theming */
+:root {
+    --primary-color: #2563eb;
+    --primary-light: #3b82f6;
+    --primary-dark: #1d4ed8;
+    --secondary-color: #7c3aed;
+    --accent-color: #06b6d4;
+    --success-color: #10b981;
+    --warning-color: #f59e0b;
+    --error-color: #ef4444;
+    --text-primary: #1f2937;
+    --text-secondary: #6b7280;
+    --text-muted: #9ca3af;
+    --bg-primary: #ffffff;
+    --bg-secondary: #f8fafc;
+    --bg-accent: #f1f5f9;
+    --border-color: #e2e8f0;
+    --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+    --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    --border-radius: 12px;
+    --border-radius-sm: 8px;
+    --border-radius-lg: 16px;
+}
+
+/* Main app container */
+.main .block-container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    max-width: 1200px;
+}
+
+/* Hide Streamlit branding */
+#MainMenu {visibility: visible;}
+footer {visibility: hidden;}
+header {visibility: visible;}
+
+/* Main header styling */
+.main-header {
+    text-align: center;
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+    padding: 3rem 2rem;
+    border-radius: var(--border-radius-lg);
+    margin-bottom: 2.5rem;
+    box-shadow: var(--shadow-md);
+    border: 1px solid var(--border-color);
+    position: relative;
+    overflow: visible;
+}
+
+.main-header h1 {
+    color: rgb(255, 255, 255);
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+.main-header p {
+    color:rgb(255, 255, 255);
+    font-size: 1.125rem;
+    margin-top: 0.5rem;
+    font-weight: 400;
+}
+
+/* Section headers */
+.section-header {
+    color: var(--primary-color);
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    border-bottom: 3px solid var(--primary-color);
+    padding-bottom: 0.75rem;
+    margin-top: 2.5rem;
+    margin-bottom: 1.5rem;
+    position: relative;
+}
+
+.section-header::after {
+    content: '';
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 60px;
+    height: 3px;
+    background: var(--accent-color);
+}
+
+/* Info boxes */
+.info-box {
+    background: var(--bg-secondary);
+    padding: 1.5rem;
+    border-radius: var(--border-radius);
+    margin: 1.5rem 0;
+    border-left: 4px solid var(--primary-color);
+    box-shadow: var(--shadow-sm);
+    transition: all 0.3s ease;
+}
+
+.info-box:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
+}
+
+.success-box {
+    background: #f0fdf4;
+    border-left-color: var(--success-color);
+    color: #166534;
+}
+
+.warning-box {
+    background: #fffbeb;
+    border-left-color: var(--warning-color);
+    color: #92400e;
+}
+
+.error-box {
+    background: #fef2f2;
+    border-left-color: var(--error-color);
+    color: #991b1b;
+}
+
+/* Button styling */
+.stButton > button {
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-light) 100%);
+    color: white;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    border: none;
+    border-radius: var(--border-radius);
+    padding: 0.75rem 2rem;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    box-shadow: var(--shadow-sm);
+    position: relative;
+    overflow: hidden;
+}
+
+.stButton > button:hover {
+    background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary-color) 100%);
+    transform: translateY(-1px);
+    box-shadow: var(--shadow-md);
+}
+
+.stButton > button:active {
+    transform: translateY(0);
+}
+
+/* Secondary button */
+.stButton.secondary > button {
+    background: var(--bg-primary);
+    color: var(--primary-color);
+    border: 2px solid var(--primary-color);
+}
+
+.stButton.secondary > button:hover {
+    background: var(--primary-color);
+    color: white;
+}
+
+/* Sidebar styling */
+.css-1d391kg {
+    background-color: var(--bg-secondary);
+    border-right: 1px solid var(--border-color);
+}
+
+/* Metric cards */
+.metric-card {
+    background: var(--bg-primary);
+    padding: 1.5rem;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-sm);
+    border: 1px solid var(--border-color);
+    text-align: center;
+    transition: all 0.3s ease;
+    margin-bottom: 1rem;
+}
+
+.metric-card:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
+}
+
+.metric-value {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.metric-label {
+    color: var(--text-secondary);
+    font-size: 0.875rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-top: 0.5rem;
+}
+
+/* Form styling */
+.stTextInput > div > div > input {
+    border-radius: var(--border-radius-sm);
+    border: 2px solid var(--border-color);
+    font-family: 'Inter', sans-serif;
+    transition: border-color 0.3s ease;
+}
+
+.stTextInput > div > div > input:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+}
+
+.stSelectbox > div > div > select {
+    border-radius: var(--border-radius-sm);
+    border: 2px solid var(--border-color);
+    font-family: 'Inter', sans-serif;
+}
+
+/* Data frame styling */
+.dataframe {
+    border-radius: var(--border-radius);
+    overflow: hidden;
+    box-shadow: var(--shadow-sm);
+    border: 1px solid var(--border-color);
+}
+
+/* Progress bar */
+.stProgress > div > div > div > div {
+    background: linear-gradient(90deg, var(--primary-color), var(--accent-color));
+    border-radius: 10px;
+}
+
+/* Tabs */
+.stTabs [data-baseweb="tab-list"] {
+    gap: 0.5rem;
+}
+
+.stTabs [data-baseweb="tab"] {
+    background-color: var(--bg-secondary);
+    border-radius: var(--border-radius-sm);
+    padding: 0.75rem 1.5rem;
+    font-weight: 500;
+    color: var(--text-secondary);
+    border: 1px solid var(--border-color);
+    transition: all 0.3s ease;
+}
+
+.stTabs [aria-selected="true"] {
+    background-color: var(--primary-color);
+    color: white;
+    border-color: var(--primary-color);
+}
+
+/* Expander */
+.streamlit-expanderHeader {
+    background-color: var(--bg-secondary);
+    border-radius: var(--border-radius-sm);
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+/* Alert boxes */
+.alert-info {
+    background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%);
+    border: 1px solid #3b82f6;
+    color: #1e40af;
+    padding: 1rem;
+    border-radius: var(--border-radius);
+    margin: 1rem 0;
+}
+
+.alert-success {
+    background: linear-gradient(135deg, #d1fae5 0%, #a7f3d0 100%);
+    border: 1px solid #10b981;
+    color: #065f46;
+    padding: 1rem;
+    border-radius: var(--border-radius);
+    margin: 1rem 0;
+}
+
+.alert-warning {
+    background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+    border: 1px solid #f59e0b;
+    color: #92400e;
+    padding: 1rem;
+    border-radius: var(--border-radius);
+    margin: 1rem 0;
+}
+
+/* Card container */
+.card {
+    background: var(--bg-primary);
+    border-radius: var(--border-radius);
+    padding: 2rem;
+    box-shadow: var(--shadow-md);
+    border: 1px solid var(--border-color);
+    margin: 1.5rem 0;
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-lg);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .main-header {
+        padding: 2rem 1rem;
+    }
+    
+    .main-header h1 {
+        font-size: 2rem;
+    }
+    
+    .card {
+        padding: 1.5rem;
+    }
+    
+    .metric-card {
+        padding: 1rem;
+    }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--bg-secondary);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--border-color);
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--text-muted);
+}
