@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Learning Assistant</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/5.1.1/marked.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-core.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/plugins/autoloader/prism-autoloader.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1><i class="fas fa-brain"></i> AI Learning Assistant</h1>
+            <p>Discover curated learning resources tailored to your skill level and interests</p>
+        </div>
+
+        <div class="main-card">
+            <form id="learningForm">
+                <div class="form-group">
+                    <label for="topic">
+                        <i class="fas fa-lightbulb"></i> What would you like to learn?
+                    </label>
+                    <input 
+                        type="text" 
+                        id="topic" 
+                        name="topic" 
+                        class="form-control" 
+                        placeholder="e.g., Data Science, Machine Learning, Web Development"
+                        required
+                    >
+                </div>
+
+                <div class="form-group">
+                    <label for="level">
+                        <i class="fas fa-chart-line"></i> Your current skill level
+                    </label>
+                    <div class="select-wrapper">
+                        <select id="level" name="level" class="form-control" required>
+                            <option value="">Select your level</option>
+                            <option value="beginner">Beginner - Just starting out</option>
+                            <option value="intermediate">Intermediate - Some experience</option>
+                            <option value="advanced">Advanced - Extensive knowledge</option>
+                        </select>
+                    </div>
+                </div>
+
+                <button type="submit" class="btn" id="submitBtn">
+                    <div class="spinner"></div>
+                    <span class="btn-text">
+                        <i class="fas fa-search"></i> Find Learning Resources
+                    </span>
+                </button>
+            </form>
+
+            <div class="progress-section" id="progressSection">
+                <div class="progress-text" id="progressText">Initializing...</div>
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progressFill" style="width: 0%"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Memory Game Section -->
+        <div class="memory-game-section" id="memoryGameSection">
+            <div class="memory-game-card">
+                <div class="memory-game-header">
+                    <h3><i class="fas fa-gamepad"></i> Memory Game</h3>
+                    <p>Keep your mind sharp while we find your learning resources!</p>
+                    <div class="game-stats">
+                        <div class="stat">
+                            <span class="stat-label">Moves:</span>
+                            <span class="stat-value" id="movesCount">0</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-label">Matches:</span>
+                            <span class="stat-value" id="matchesCount">0</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-label">Time:</span>
+                            <span class="stat-value" id="timeCount">0s</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="memory-game-grid" id="memoryGrid">
+                    <!-- Memory cards will be generated here -->
+                </div>
+                
+                <div class="game-controls">
+                    <button class="game-btn" id="resetGameBtn">
+                        <i class="fas fa-refresh"></i> New Game
+                    </button>
+                    <button class="game-btn secondary" id="pauseGameBtn">
+                        <i class="fas fa-pause"></i> Pause
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="results-section" id="resultsSection">
+            <div class="results-card">
+                <div class="results-header">
+                    <h2 class="results-title">
+                        <i class="fas fa-file-alt"></i> Learning Resources Report
+                    </h2>
+                    <a href="#" class="download-btn" id="downloadBtn">
+                        <i class="fas fa-download"></i> Download Report
+                    </a>
+                </div>
+                <div class="summary-content" id="summaryContent"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
