@@ -1,0 +1,162 @@
+[
+  {
+    "week_number": 1,
+    "objective": "Rebuild user's understanding of fundamental graphic design concepts, focusing on composition, visual organization, and basic software proficiency.",
+    "topics": [
+      {
+        "name": "Reviewing the principles of composition (read foundational concepts)",
+        "completed": false
+      },
+      {
+        "name": "Understanding the role of visual hierarchy in effective design (watch a visual explanation)",
+        "completed": false
+      },
+      {
+        "name": "Familiarizing oneself with basic software tools and interface (practice navigating software, creating a simple document)",
+        "completed": false
+      },
+      {
+        "name": "Introduction to typography basics (review prior knowledge)",
+        "completed": true
+      }
+    ],
+    "tasks": [
+      {
+        "description": "Create a series of compositions using everyday objects to demonstrate understanding of composition principles.",
+        "completed": true
+      },
+      {
+        "description": "Rearrange a pre-existing design to better showcase visual hierarchy.",
+        "completed": false
+      },
+      {
+        "description": "Complete a basic tutorial on software interface and create a simple graphic.",
+        "completed": false
+      },
+      {
+        "description": "Implement the correct use of typography in a mock design.",
+        "completed": false
+      }
+    ]
+  },
+  {
+    "week_number": 2,
+    "objective": "Develop user's knowledge of color theory and enhance their proficiency with design software, focusing on color selection and application.",
+    "topics": [
+      {
+        "name": "Understanding color theory basics (read foundational concepts)",
+        "completed": false
+      },
+      {
+        "name": "Exploring the use of color in graphic design (watch a visual explanation)",
+        "completed": false
+      },
+      {
+        "name": "Mastering basic software tools for color manipulation (practice using software to apply colors)",
+        "completed": false
+      },
+      {
+        "name": "Introduction to designing with grids (review prior knowledge)",
+        "completed": false
+      }
+    ],
+    "tasks": [
+      {
+        "description": "Design a mood board that showcases effective use of color theory.",
+        "completed": false
+      },
+      {
+        "description": "Solve problems involving color contrast and harmony in pre-existing designs.",
+        "completed": false
+      },
+      {
+        "description": "Implement color correction techniques on an image using design software.",
+        "completed": false
+      },
+      {
+        "description": "Create a simple icon that demonstrates understanding of grid usage.",
+        "completed": false
+      }
+    ]
+  },
+  {
+    "week_number": 3,
+    "objective": "Enhance user's ability to create visually appealing designs by introducing texture, pattern, and shape elements effectively.",
+    "topics": [
+      {
+        "name": "Understanding the role of texture in visual interest (read foundational concepts)",
+        "completed": false
+      },
+      {
+        "name": "Using patterns effectively in design (watch a visual explanation)",
+        "completed": false
+      },
+      {
+        "name": "Applying shapes and forms for emphasis (practice using software to apply shapes)",
+        "completed": false
+      },
+      {
+        "name": "Reviewing color theory application with new tools learned",
+        "completed": false
+      }
+    ],
+    "tasks": [
+      {
+        "description": "Design an image that incorporates at least three types of textures.",
+        "completed": false
+      },
+      {
+        "description": "Implement the use of shape and pattern in a way that guides the viewer's attention.",
+        "completed": false
+      },
+      {
+        "description": "Solve problems involving balancing texture, pattern, and negative space in designs.",
+        "completed": false
+      },
+      {
+        "description": "Experiment with creating unique shapes using software tools.",
+        "completed": false
+      }
+    ]
+  },
+  {
+    "week_number": 4,
+    "objective": "Develop user's ability to optimize designs for digital formats and apply more advanced concepts such as visual hierarchy and typography.",
+    "topics": [
+      {
+        "name": "Understanding design considerations for digital formats (read foundational concepts)",
+        "completed": false
+      },
+      {
+        "name": "Creating and applying mood boards effectively (watch a visual explanation)",
+        "completed": false
+      },
+      {
+        "name": "Reviewing and enhancing understanding of typography and its application",
+        "completed": false
+      },
+      {
+        "name": "Introduction to designing responsive layouts (review prior knowledge)",
+        "completed": false
+      }
+    ],
+    "tasks": [
+      {
+        "description": "Design a piece that adapts well across different digital formats.",
+        "completed": false
+      },
+      {
+        "description": "Create a comprehensive mood board for an upcoming project.",
+        "completed": false
+      },
+      {
+        "description": "Implement advanced typography techniques in a mock design.",
+        "completed": false
+      },
+      {
+        "description": "Solve problems involving balancing visual hierarchy, color theory, and texture in designs.",
+        "completed": false
+      }
+    ]
+  }
+]
