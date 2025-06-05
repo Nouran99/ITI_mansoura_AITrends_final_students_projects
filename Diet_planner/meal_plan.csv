@@ -1,0 +1,6 @@
+meal_type,name,description,estimated_calories,protein_g,carbs_g,fats_g,recipe_link
+breakfast,Oatmeal with Berries and Nuts,A hearty bowl of oatmeal topped with mixed berries and a sprinkle of nuts.,350,12,50,15,N/A
+snack,Apple with Peanut Butter,A sliced apple with a tablespoon of peanut butter.,200,7,20,12,N/A
+lunch,Vegetarian Quinoa Salad,"A salad made with quinoa, mixed vegetables, and a light vinaigrette.",450,15,60,15,N/A
+snack,Greek Yogurt with Honey,A small container of Greek yogurt with a drizzle of honey.,150,15,20,3,N/A
+dinner,Lentil Soup with Whole Wheat Bread,A bowl of hearty lentil soup served with a slice of whole wheat bread.,650,30,80,20,N/A

@@ -1,0 +1,12 @@
+streamlit
+pandas
+tabulate
+python-dotenv
+crewai[tools]
+agentops
+langchain
+langchain-openai
+google-generativeai
+openai
+pyngrok
+fpdf

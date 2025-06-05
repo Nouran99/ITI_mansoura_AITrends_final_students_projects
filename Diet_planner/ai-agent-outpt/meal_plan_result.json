@@ -1,0 +1,60 @@
+```json
+{
+  "meal_plan": {
+    "breakfast": {
+      "name": "Lemon Coconut Granola",
+      "description": "A delicious and healthy granola with lemon and coconut flavors.",
+      "estimated_calories": 251.64,
+      "protein_g": 5.59,
+      "carbs_g": 28.75,
+      "fats_g": 14.44,
+      "recipe_link": "http://www.foodista.com/recipe/44DH6XF5/lemon-coconut-granola"
+    },
+    "lunch": {
+      "name": "Apple Cheddar Turkey Burgers With Chipotle Yogurt Sauce",
+      "description": "Flavorful turkey burgers with apple, cheddar, and a zesty chipotle yogurt sauce.",
+      "estimated_calories": 361.64,
+      "protein_g": 37.56,
+      "carbs_g": 20.68,
+      "fats_g": 14.63,
+      "recipe_link": "http://www.foodista.com/recipe/47V5F2DH/apple-cheddar-turkey-burgers-with-chipotle-yogurt-sauce"
+    },
+    "dinner": {
+      "name": "Easy Baked Parmesan Chicken",
+      "description": "Simple and tasty baked chicken with a parmesan crust.",
+      "estimated_calories": 496.99,
+      "protein_g": 62.08,
+      "carbs_g": 15.48,
+      "fats_g": 20.03,
+      "recipe_link": "https://www.foodista.com/recipe/KVKJYVHX/easy-parmesan-chicken"
+    },
+    "snack_1": {
+      "name": "Ginger-Baked Pears",
+      "description": "Warm and comforting baked pears with a hint of ginger.",
+      "estimated_calories": 117.46,
+      "protein_g": 0.48,
+      "carbs_g": 23.19,
+      "fats_g": 0.31,
+      "recipe_link": "https://www.foodista.com/recipe/SKPVHFBC/ginger-baked-pears"
+    },
+    "snack_2": {
+      "name": "Cold Fennel and Zucchini Noodle Side Salad",
+      "description": "A refreshing and light salad with fennel and zucchini noodles.",
+      "estimated_calories": 103.07,
+      "protein_g": 1.62,
+      "carbs_g": 10.37,
+      "fats_g": 7.36,
+      "recipe_link": "http://www.foodista.com/recipe/YLSHPQMM/cold-fennel-and-zucchini-noodle-salad"
+    },
+    "total_daily_summary": {
+      "total_calories": 1330.8,
+      "total_protein_g": 107.33,
+      "total_carbs_g": 98.47,
+      "total_fats_g": 56.77
+    },
+    "suggestions_to_meet_target": [
+      "Add a 470 kcal snack, such as a handful of nuts and a piece of fruit."
+    ]
+  }
+}
+```
