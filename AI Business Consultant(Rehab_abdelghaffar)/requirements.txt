@@ -1,0 +1,5 @@
+streamlit
+crewai
+langchain_cohere
+
+
