@@ -1,0 +1,294 @@
+
+Thought: I have finished searching for all the queries. Now I will compile the results into a JSON object.
+```json
+{
+  "results": [
+    {
+      "title": "Nokia C21 Plus, 64gb+3gb, Ds, Grey - أمازون مصر",
+      "url": "https://www.amazon.eg/-/en/NOKIA-C21-PLUS-64GB-GREY/dp/B0B39PZ86X",
+      "content": "Buy NOKIA C21 PLUS, 64GB+3GB, DS, GREY online on Amazon.eg at best prices. Fast and Free Shipping Free Returns Cash on Delivery available on eligible purchase. NOKIA C21 PLUS, 64GB+3GB, DS, GREY: Buy Online at Best Price in Egypt - Souq is now Amazon.eg",
+      "score": 0.87807417,
+      "search_query": "Nokia C21 Plus Egypt Amazon"
+    },
+    {
+      "title": "Nokia C21 Plus, Dual, 32GB 2GB RAM, Dark Cyan - أمازون مصر",
+      "url": "https://www.amazon.eg/-/en/Nokia-C21-Plus-Dual-32GB/dp/B0BG8F2CLW",
+      "content": "Buy Nokia C21 Plus, Dual, 32GB 2GB RAM, Dark Cyan online on Amazon.eg at best prices. Fast and Free Shipping Free Returns Cash on Delivery available on eligible purchase.",
+      "score": 0.8512743,
+      "search_query": "Nokia C21 Plus Egypt Amazon"
+    },
+    {
+      "title": "Nokia c21 plus android smartphone,dual sim,3 gb ram,64 gb memory,6.517 ...",
+      "url": "https://www.amazon.eg/-/en/Nokia-android-smartphone-fingerprint-proximity/dp/B0B39GRWRP",
+      "content": "Buy Nokia c21 plus android smartphone,dual sim,3 gb ram,64 gb memory,6.517\",hd+ lcd with v-notch,android 11 (go edition), fingerprint,face unlock,proximity sensor- dark cyan online on Amazon.eg at best prices. Fast and Free Shipping Free Returns Cash on Delivery available on eligible purchase.",
+      "score": 0.8409005,
+      "search_query": "Nokia C21 Plus Egypt Amazon"
+    },
+    {
+      "title": "NOKIA C21 PLUS 3GB RAM 64GB 4G LTE Warm Grey- Middle East ... - noon",
+      "url": "https://www.noon.com/egypt-en/c21-plus-3gb-ram-64gb-4g-lte-warm-grey-middle-east-version/N53329994A/p/",
+      "content": "Online shopping for NOKIA. Trusted Shipping to Egypt Great Prices Secure Shopping 100% Contactless Easy Free Returns Cash on Delivery. Shop Now ... C21 Plus: Primary Camera (MP) 13: C21 PLUS 3GB RAM 64GB 4G LTE Warm Grey- Middle East Version. Added to cart. Cart Total EGP 4061.90.",
+      "score": 0.72814995,
+      "search_query": "Nokia C21 Plus Egypt Amazon"
+    },
+    {
+      "title": "Amazon.com: Nokia C21 Plus | Android 11 (Go Edition) | Unlocked GSM ...",
+      "url": "https://www.amazon.com/Nokia-Unlocked-Smartphone-6-52-Inch-Charcoal/dp/B0B4Y7DWL2",
+      "content": "The Nokia C21 Plus is the C-Series device that keeps on giving. It delivers our signature durability in a sleek design, with 2 years of quarterly security updates, standard. A dazzling 6.5\" display is perfect for discovering a world of smartphone possibilities - streaming, swiping, scrolling and sharing on the sofa or on the move.",
+      "score": 0.6852132,
+      "search_query": "Nokia C21 Plus Egypt Amazon"
+    },
+    {
+      "title": "Nokia G11 Plus Price In Egypt - Mobile57 Eg",
+      "url": "https://www.mobile57.com/eg/phones/nokia-g11-plus-12871",
+      "content": "Best Price of Nokia G11 Plus in Egypt is 1,855, Get most updated Price of Nokia G11 Plus in Cairo, Alexandria, Giza, Check Full Specs & Review online before buying Nokia G11 Plus. Egypt . Afghanistan Algeria Angola Argentina Armenia Australia Austria Azerbaijan Bahrain",
+      "score": 0.8993429,
+      "search_query": "Nokia G11 Plus price Egypt Amazon"
+    },
+    {
+      "title": "Nokia G11 Plus, 64GB, 4GB RAM, 4G LTE, Dual SIM - Lake Blue - بي تك",
+      "url": "https://btech.com/en/nokia-g11-plus-64gb-4gb-ram-4g-lte-dual-sim-blue.html",
+      "content": "Best Nokia G11 Plus, 64GB, 4GB RAM, 4G LTE, Dual SIM - Lake Blue price in Egypt from B.TECH with easy payments and monthly installments.. Great news, our new web experience is now live. Be the first to check it out! ... Nokia G11 Plus, 64GB, 4GB RAM, 4G LTE, Dual SIM - Lake Blue. 5 (2 reviews) 3,799. SKU. ELS-G11. Will be back in stock soon",
+      "score": 0.8576849,
+      "search_query": "Nokia G11 Plus price Egypt Amazon"
+    },
+    {
+      "title": "Nokia G11 Plus price in cairo egypt | Aramobi your best guide to smart ...",
+      "url": "https://aramobi.com/mobile-price-en/330780/Nokia-G11-Plus-price-in-cairo-egypt/",
+      "content": "Price in Egypt; 3,999 Egyptian pound 64GB/4GBRam version This price has been updated in 2024-06-13",
+      "score": 0.7707586,
+      "search_query": "Nokia G11 Plus price Egypt Amazon"
+    },
+    {
+      "title": "Nokia g11 plus android smartphone, dual sim, 4gb ram, 64gb memory, 6 ...",
+      "url": "https://www.amazon.eg/-/en/Nokia-android-smartphone-5000mah-battery/dp/B0B39HDKL9",
+      "content": "Buy Nokia g11 plus android smartphone, dual sim, 4gb ram, 64gb memory, 6.5hd+ screen, 5000mah battery, android 12 ready, face unlock, finger print sensor - blue online on Amazon.eg at best prices. Fast and Free Shipping Free Returns Cash on Delivery available on eligible purchase.",
+      "score": 0.767638,
+      "search_query": "Nokia G11 Plus price Egypt Amazon"
+    },
+    {
+      "title": "NOKIA G11 PLUS - Mobile Phones for sale in Egypt | dubizzle Egypt (OLX)",
+      "url": "https://www.dubizzle.com.eg/en/mobile-phones-tablets-accessories-numbers/mobile-phones/q-NOKIA-G11-PLUS/",
+      "content": "Find the best NOKIA G11 PLUS for sale in Egypt. dubizzle Egypt (OLX) offers online local classified ads for NOKIA G11 PLUS. Post your classified ad in various categories like mobiles, tablets, cars, bikes, laptops, electronics, birds, houses, furniture, clothes, dresses for sale in Egypt.",
+      "score": 0.5073975,
+      "search_query": "Nokia G11 Plus price Egypt Amazon"
+    },
+    {
+      "title": "Nokia C30: Shop Online At Best Prices In Egypt | Souq Is Now Amazon.eg",
+      "url": "https://www.amazon.eg/-/en/nokia-c30/s?k=nokia+c30",
+      "content": "Amazon.eg: nokia c30.eg. ... 8MP Front Camera, 5000 mAh Battery, Dual Nano Sim, Type-C, (Made In Egypt) (Crys Green) 4.2 out of 5 stars 144. Limited time deal. Price, product page EGP 3,699.00 EGP 3,699. 00 List: EGP 3,939.00. List ... For Nokia C30 Two-line design Flip Leather Wallet Card Slot Case with Kickstand,Strap Magnetic Closure",
+      "score": 0.98554,
+      "search_query": "Nokia C30 dual SIM Amazon Egypt"
+    },
+    {
+      "title": "Nokia C30 - 3GB RAM - 64GB - White | 2B Egypt - توبي",
+      "url": "https://2b.com.eg/en/nokia-c30-3gb-ram-64gb-white.html",
+      "content": "Shop and Buy now from 2B Egypt with the Best Prices| Nokia C30 - 3GB RAM - 64GB - White.... The store will not work correctly when cookies are disabled. ... SIM Card: Dual SIM (Nano-SIM, dual stand-by) Screen: 6.82 inches 720 x 1600 pixels RAM: 3 GB ... Nokia C30 and its impressive 13 MP camera with depth sensor means you're never more than a",
+      "score": 0.98245,
+      "search_query": "Nokia C30 dual SIM Amazon Egypt"
+    },
+    {
+      "title": "C30 Dual Sim White 3GB RAM 64GB 4G LTE- Middle East Version - noon",
+      "url": "https://www.noon.com/egypt-en/c30-dual-sim-white-3gb-ram-64gb-4g-lte-middle-east-version/N51355240A/p/",
+      "content": "Online shopping for NOKIA. Trusted Shipping to Egypt Great Prices Secure Shopping 100% Contactless Easy Free Returns Cash on Delivery. Shop Now",
+      "score": 0.979,
+      "search_query": "Nokia C30 dual SIM Amazon Egypt"
+    },
+    {
+      "title": "Nokia C30 Dual Sim Phone with 3GB RAM 64GB 4G LTE - Green",
+      "url": "https://www.amazon.eg/-/en/Nokia-C30-Dual-Phone-64GB/dp/B09XSRFRF1",
+      "content": "Buy Nokia C30 Dual Sim Phone with 3GB RAM 64GB 4G LTE - Green online on Amazon.eg at best prices. Fast and Free Shipping Free Returns Cash on Delivery available on eligible purchase..eg. ... Reviewed in Egypt on 14 September 2022. Verified Purchase.",
+      "score": 0.97211,
+      "search_query": "Nokia C30 dual SIM Amazon Egypt"
+    },
+    {
+      "title": "Nokia C30 Android Smartphone with 4G, Dual SIM, 3GB RAM, 64GB ROM, 6.82 ...",
+      "url": "https://www.amazon.eg/-/en/Nokia-Android-Smartphone-display-cameras/dp/B09JMXNWHJ",
+      "content": "Buy Nokia C30 Android Smartphone with 4G, Dual SIM, 3GB RAM, 64GB ROM, 6.82\" HD display, rear 13MP with flash and 5MP front cameras, long lasting 6000 mAh battery, Android 11 (Go Edition) - Green online on Amazon.eg at best prices. Fast and Free Shipping Free Returns Cash on Delivery available on eligible purchase.",
+      "score": 0.96838,
+      "search_query": "Nokia C30 dual SIM Amazon Egypt"
+    },
+    {
+      "title": "Nokia 105 (2023) Price In Egypt - Mobile57 Eg",
+      "url": "https://www.mobile57.com/eg/phones/nokia-105-(2023)-13760",
+      "content": "Best Price of Nokia 105 (2023) in Egypt is 220, Get most updated Price of Nokia 105 (2023) in Cairo, Alexandria, Giza, Check Full Specs & Review online before buying Nokia 105 (2023) Egypt . Afghanistan Algeria Angola Argentina Armenia Australia Austria Azerbaijan Bahrain",
+      "score": 0.9451216,
+      "search_query": "Nokia 105 (2023) price Egypt"
+    },
+    {
+      "title": "Nokia 105: Shop Online At Best Prices In Egypt | Souq Is Now Amazon.eg",
+      "url": "https://www.amazon.eg/-/en/nokia-105/s?k=nokia+105",
+      "content": "42 results for \"nokia 105\" Results. Check each product page for other buying options. Mobile Phone 105 Dual Sim Black. 5.0 out of 5 stars 1. ... Price, product page EGP 607.50 EGP 607. 50 List Price: EGP 675.00. List Price: EGP 675.00 EGP675.00. Exclusive Prime price. See options. Nokia.",
+      "score": 0.8539252,
+      "search_query": "Nokia 105 (2023) price Egypt"
+    },
+    {
+      "title": "Nokia: Best Prices & Offers in Egypt - Jumia Egypt",
+      "url": "https://www.jumia.com.eg/nokia/",
+      "content": "Nokia 105 -1.8-inch Dual SIM Mobile Phone - Charcoal HMD. EGP 898.00 ... Shop from Nokia via Jumia Egypt Online. Nokia is an international company that produces all types of mobile phones, tablets, and mobile accessories, so Jumia Egypt has taken care to provide all Nokia products online. ... Are you looking for the best prices for Nokia",
+      "score": 0.82425016,
+      "search_query": "Nokia 105 (2023) price Egypt"
+    },
+    {
+      "title": "Nokia 105 (2023) - 1.8-inch Dual SIM 2G Mobile Phone - Cyan",
+      "url": "https://www.carrefouregypt.com/mafegy/en/mobile-phones/nokia-105-2023-cyan/p/633102",
+      "content": "Shop Nokia 105 (2023) - 1.8-inch Dual SIM 2G Mobile Phone - Cyan online now at Carrefour Egypt. Buy Smartphones, Tablets & Wearables in Cairo, & more. ... & more. Enjoy best prices, fast delivery, & easy returns Scheduled Delivery. NOW Delivery ... Mobile and Smartwatches. Mobile phones. Add to wishlist Share. More from Nokia. Nokia 105 (2023",
+      "score": 0.7272211,
+      "search_query": "Nokia 105 (2023) price Egypt"
+    },
+    {
+      "title": "Nokia 105 2023 Dual SIM, 2G - Charcoal price in Egypt - بي تك",
+      "url": "https://btech.com/en/nokia-105-2023-2g-charcoal.html",
+      "content": "Best Nokia 105 2023 Dual SIM, 2G - Charcoal price in Egypt from B.TECH with easy payments and monthly installments.. Great news, our new web experience is now live. ... Nokia 105 (2023) comes with wireless FM radio that lets you enjoy your favorite channels all the time. Being wireless, you can use it anytime since it works with or without",
+      "score": 0.72675586,
+      "search_query": "Nokia 105 (2023) price Egypt"
+    },
+    {
+      "title": "Nokia 2660 TA-1474 Flip Dual Sim Smartphone, Black - أمازون مصر",
+      "url": "https://www.amazon.eg/-/en/Nokia-2660-TA-1474-Smartphone-Black/dp/B0BLTH44M2",
+      "content": "Buy Nokia 2660 TA-1474 Flip Dual Sim Smartphone, Black online on Amazon.eg at best prices. Fast and Free Shipping Free Returns Cash on Delivery available on eligible purchase..eg. ... Reviewed in Egypt on 24 January 2024.",
+      "score": 0.83932644,
+      "search_query": "Nokia 2660 Flip Amazon Egypt"
+    },
+    {
+      "title": "Nokia 2660 Flip Feature all carriers 0.05Gb Phone with 2.8\" display, 4G ...",
+      "url": "https://www.amazon.eg/-/en/Nokia-carriers-Connectivity-Compatibility-wireless/dp/B0B6WKX55D",
+      "content": "Buy Nokia 2660 Flip Feature all carriers 0.05Gb Phone with 2.8\" display, 4G Connectivity, Hearing Aid Compatibility (HAC), built-in camera, MP3 player, wireless FM radio and classic games (Dual SIM), Blue online on Amazon.eg at best prices. Fast and Free Shipping Free Returns Cash on Delivery available on eligible purchase.",
+      "score": 0.8364614,
+      "search_query": "Nokia 2660 Flip Amazon Egypt"
+    },
+    {
+      "title": "Nokia 2660 Flip - Mobile Phones / Mobile Phones & Communication ...",
+      "url": "https://www.amazon.eg/-/en/nokia-2660-flip-Mobile-Phones/s?k=nokia+2660+flip&rh=n:21832883031",
+      "content": "nokia 2660 flip - Mobile Phones / Mobile Phones & Communication Products : Shop online for a large selection of top brands in Egypt at best price Free Shipping Free Returns Cash on Delivery available on eligible purchase | Souq is now Amazon.eg",
+      "score": 0.8055255,
+      "search_query": "Nokia 2660 Flip Amazon Egypt"
+    },
+    {
+      "title": "Nokia 2660 Flip: Shop Online At Best Prices In Egypt | Souq Is Now ...",
+      "url": "https://www.amazon.eg/-/en/nokia-2660-flip/s?k=nokia+2660+flip",
+      "content": "Amazon.eg: nokia 2660 flip.eg. ... 18 results for \"nokia 2660 flip\" Results. Check each product page for other buying options. ... English Egypt. Amazon Advertising Find, attract, and engage customers; Sell on Amazon Start Selling Online Today! Amazon Web Services Scalable Cloud Computing Services;",
+      "score": 0.76385427,
+      "search_query": "Nokia 2660 Flip Amazon Egypt"
+    },
+    {
+      "title": "Nokia 2660 Flip Dual-SIM 128MB ROM + 48MB RAM (GSM Only - amazon.com",
+      "url": "https://www.amazon.com/Nokia-Dual-SIM-Factory-Unlocked-Smartphone/dp/B0B6WLHKC3",
+      "content": "Amazon.com: Nokia 2660 Flip Dual-SIM 128MB ROM + 48MB RAM (GSM Only | No CDMA) Factory Unlocked Android 4G/LTE Smartphone (Black) - International Version : Cell Phones & Accessories ... Quick start guide (may not English language not guaranteed)., Nokia 2660 Flip, Quick start guide, Removable battery : Manufacturer : HMD Global Oy : Date First",
+      "score": 0.67501575,
+      "search_query": "Nokia 2660 Flip Amazon Egypt"
+    },
+    {
+      "title": "Nokia C1 2nd Edition 1GB Ram+16GB ROM (5.4 Inches) (3G) - (Purple)",
+      "url": "https://www.amazon.eg/-/en/Nokia-2nd-1GB-16GB-Inches/dp/B09HCHV364",
+      "content": "Buy Nokia C1 2nd Edition 1GB Ram+16GB ROM (5.4 Inches) (3G) - (Purple) online on Amazon.eg at best prices. Fast and Free Shipping Free Returns Cash on Delivery available on eligible purchase.",
+      "score": 0.98577,
+      "search_query": "Nokia C01 Plus price in Egypt Amazon"
+    },
+    {
+      "title": "Nokia C1, Dual Sim, 5.45 Inch, 16 GB, 1 GB RAM, 3G - Red",
+      "url": "https://www.amazon.eg/-/en/Nokia-C1-Dual-5-45-Inch/dp/B08WJLHTN5",
+      "content": "Buy Nokia C1, Dual Sim, 5.45 Inch, 16 GB, 1 GB RAM, 3G - Red online on Amazon.eg at best prices. Fast and Free Shipping Free Returns Cash on Delivery available on eligible purchase..eg. ... Light up your selfies - even after dark - with the front-facing 5 MP camera and flash. Plus, this means you can make video calls, day or night.",
+      "score": 0.98321,
+      "search_query": "Nokia C01 Plus price in Egypt Amazon"
+    },
+    {
+      "title": "Amazon.com: Nokia C01 Plus | Android 11 (Go Edition) | Unlocked ...",
+      "url": "https://www.amazon.com/Nokia-Factory-Unlocked-Android-Verizon/dp/B09CBSS3BX",
+      "content": "Amazon.com: Nokia C01 Plus | Android 11 (Go Edition) | Unlocked Smartphone | 2-Day Battery | 1/32GB | 6.52-Inch Screen | Dark Blue : Cell Phones & Accessories ... Quality Price, Reliable delivery option, and; ... Life doesn't wait and neither does the Nokia C01 Plus. Thanks to its speedy octa-core processor and 4G LTE, things happen when you",
+      "score": 0.97728,
+      "search_query": "Nokia C01 Plus price in Egypt Amazon"
+    },
+    {
+      "title": "Nokia C01 Plus Mobiles for Sale : Best C01 Plus Prices : Used and New ...",
+      "url": "https://eg.opensooq.com/en/mobile-phones-tablets/mobile-phones/nokia/c01-plus",
+      "content": "Nokia C01 Plus mobiles for sale in Egypt, Join Opensooq and enjoy a fast and easy way to buy and Sell without commission.",
+      "score": 0.97258,
+      "search_query": "Nokia C01 Plus price in Egypt Amazon"
+    },
+    {
+      "title": "Nokia C01 Plus price in cairo egypt | Aramobi your best guide to smart ...",
+      "url": "https://aramobi.com/mobile-price-en/162051/Nokia-C01-Plus-price-in-cairo-egypt/",
+      "content": "Nokia C01 Plus price in cairo egypt | devices and mobile phones photos and prices , latest smart phones news and specifications | AraMobi. ... Nokia C01 Plus. 5.45 Inch 5 MP 3000 mAh. Views count : 9059. Price in Egypt (global) 3,900 Egyptian pound: Price worldwide 90 Dollar * This price is approximate (Additional fees may be applied in your",
+      "score": 0.97091,
+      "search_query": "Nokia C01 Plus price in Egypt Amazon"
+    },
+    {
+      "title": "Nokia G21 Dual SIM 4GB Ram+128GB ROM (6.5 Inches) (4G) - (Dusk)",
+      "url": "https://www.amazon.eg/-/en/Nokia-G21-Dual-128GB-Inches/dp/B0B39LMDKP",
+      "content": "Buy Nokia G21 Dual SIM 4GB Ram+128GB ROM (6.5 Inches) (4G) - (Dusk) online on Amazon.eg at best prices. Fast and Free Shipping Free Returns Cash on Delivery available on eligible purchase. ... with Egypt-wide coverage and free pickup and delivery service. An EGP200 deductible fee will apply at the time of claim for Accidental Damage Protection",
+      "score": 0.98538,
+      "search_query": "Nokia G21 Amazon Egypt"
+    },
+    {
+      "title": "Nokia G in Egypt",
+      "url": "https://www.dubizzle.com.eg/en/mobile-phones-tablets-accessories-numbers/mobile-phones/q-nokia-g/",
+      "content": "Find the best Nokia G for sale in Egypt. dubizzle Egypt (OLX) offers online local classified ads for Nokia G. Post your classified ad in various categories like mobiles, tablets, cars, bikes, laptops, electronics, birds, houses, furniture, clothes, dresses for sale in Egypt. ... للبيع موبايل Nokia g21 . . حالة الجديد",
+      "score": 0.9836,
+      "search_query": "Nokia G21 Amazon Egypt"
+    },
+    {
+      "title": "Nokia G21 Price In Egypt - Mobile57 Eg",
+      "url": "https://www.mobile57.com/eg/phones/nokia-g21-12525",
+      "content": "The Nokia G21 is an Android based smartphone manufactured by Chines based Nokia mobile, announced on 14 February 2022. It has a Plastic body and is protected by front glass and back Plastic. The mobile phone has a 6.5inches IPS LCD Display, HD+ (720p) resolution, 60Hz refresh rate, Triple Camera setup, 50MP Main, 2MP macro, 2MP depth, 8MP",
+      "score": 0.97853,
+      "search_query": "Nokia G21 Amazon Egypt"
+    },
+    {
+      "title": "NOKIA G21 Dual Sim Nordic Blue 4GB RAM 128GB 4G- Middle East ... - noon",
+      "url": "https://www.noon.com/egypt-en/g21-dual-sim-nordic-blue-4gb-ram-128gb-4g-middle-east-version/N70028301V/p/",
+      "content": "Online shopping for NOKIA. Trusted Shipping to Egypt Great Prices Secure Shopping 100% Contactless Easy Free Returns Cash on Delivery. Shop Now ... G21 Dual Sim Nordic Blue 4GB RAM 128GB 4G- Middle East Version. Added to cart. Cart Total EGP 0.00. Checkout Continue Shopping.",
+      "score": 0.97484,
+      "search_query": "Nokia G21 Amazon Egypt"
+    },
+    {
+      "title": "NOKIA G21 Dual SIM 128GB, 4GB RAM, 4G LTE, Nordic Blue - راية",
+      "url": "https://www.rayashop.com/en/nokia-g21-dual-sim-128gb-4gb-ram-4g-lte-nordic-blue-29",
+      "content": "NOKIA G21 Dual SIM 128GB, 4GB RAM, 4G LTE, Nordic Blue. 1 Review 4,500 EGP. Bestseller 50% Off Interest Select QTY. Notify Me When It's Back Add To Compare Delivery Time Inside Cairo & Giza 1-3 Business Days . Delivery Time Outside Cairo & Giza 5-7",
+      "score": 0.97036,
+      "search_query": "Nokia G21 Amazon Egypt"
+    },
+    {
+      "title": "Nokia C20 Plus Price in egypt (1st September 2024)",
+      "url": "https://www.gizphone.com/nokia-c20-plus-price-in-egypt-gpn",
+      "content": "Nokia C20 Plus price in egypt. Price: EGP2,040. Key Specs. Display. 6.5 inch. Ram. 2GB. Storage. 32GB. Front Camera. 5 MP. Battery Capacity. 4950 mAh. OS. Android v11. Nokia C20 Plus Summary. Nokia C20 Plus is priced in India at Rs. 13,499 for the 6GB + 128GB storage model. It runs on Android 11 version built over the Samsung One UI custom",
+      "score": 0.9564761,
+      "search_query": "Nokia C20 Plus price Egypt"
+    },
+    {
+      "title": "Nokia C20 Plus price in egypt | Aramobi your best guide to smart phones",
+      "url": "https://aramobi.com/mobile-price-en/162577/Nokia-C20-Plus-price-in-egypt/",
+      "content": "Nokia C20 Plus price in egypt. Nokia C20 Plus. 6.5 Inch 8 MP 4950 mAh. Views count : 11404. Price in Egypt (global) 5,870 Egyptian pound: Price worldwide 110 Dollar * This price is approximate (Additional fees may be applied in your country) Nokia C20 Plus offers and accessories from Amazon.",
+      "score": 0.95067275,
+      "search_query": "Nokia C20 Plus price Egypt"
+    },
+    {
+      "title": "Nokia C20 Plus Price in Egypt 2025 Specifications - mobilewithprices.com",
+      "url": "https://www.mobilewithprices.com/nokia-c20-plus-10335-in-egypt-5026.php",
+      "content": "Nokia C20 Plus has Released in June 2021 with 4G, Networks, 3GB RAM and 32GB ROM, 6.5 inches IPS LCD Display, Android 11, Dual Rear (8MP + 2MP) & 5MP Front Came Nokia C20 Plus Price in Egypt 2025 - Specs & Features",
+      "score": 0.7946564,
+      "search_query": "Nokia C20 Plus price Egypt"
+    },
+    {
+      "title": "Nokia C20 Plus, 6.5\"(16.51cm) HD+ Screen, 4950 mAh Battery, 3 + 32GB ...",
+      "url": "https://www.amazon.eg/-/en/Nokia-C20-Plus-16-51cm-Battery/dp/B09BW5N7SZ",
+      "content": "Buy Nokia C20 Plus, 6.5\"(16.51cm) HD+ Screen, 4950 mAh Battery, 3 + 32GB Memory (Dark Grey) online on Amazon.eg at best prices. Fast and Free Shipping Free Returns Cash on Delivery available on eligible purchase.",
+      "score": 0.77893573,
+      "search_query": "Nokia C20 Plus price Egypt"
+    },
+    {
+      "title": "سعر ومواصفات Nokia C20 Plus في مصر (مايو 2025)، مع المميزات والعيوب ...",
+      "url": "https://phonezed.com/product/nokia-c20-plus/",
+      "content": "سعر ومواصفات Nokia C20 Plus في مصر. تم الاعلان عن Nokia C20 Plus في 2021 ، يونيو. يأتي الهاتف بشاشة مقاس 6.5 بوصة ودقة 720 × 1600 بكسل، تدعم الشاشة معدل تحديث 60 هرتز واستجابة لمس 120 هرتز.",
+      "score": 0.75852895,
+      "search_query": "Nokia C20 Plus price Egypt"
+    },
+    {
+      "title": "Nokia - Mobile Phones / Mobile Phones & Communication Products ...",
+      "url": "https://www.amazon.eg/-/en/Mobile-Phones-Nokia-Communication-Products/s?rh=n:21832883031,p_89:Nokia",
+      "content": "Nokia - Mobile Phones / Mobile Phones & Communication Products : Shop online for a large selection of top brands in Egypt at best price Free Shipping Free Returns Cash on Delivery available on eligible purchase | Souq is now Amazon.eg ... Nokia 110 TA-1567 Dual SIM, Feature Phone, 1.8 Inches - Charcoal. 3.7 out of 5 stars 30.",
+      "score": 0.98516,
+      "search_query": "Nokia feature phone Egypt Amazon"
+    },
+    {
+      "title": "Nokia Mobile: Shop Online At Best Prices In Egypt | Souq Is

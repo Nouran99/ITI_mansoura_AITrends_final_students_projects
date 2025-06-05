@@ -1,0 +1,7 @@
+2025-06-04 17:27:30,433 - INFO - Session Replay for default trace: https://app.agentops.ai/sessions?trace_id=8ded63680533f9576533ebc15bdf0a9c
+2025-06-04 17:27:35,988 - ERROR - [agentops.InternalSpanProcessor] Error uploading logfile: Upload failed: 401
+2025-06-04 17:28:23,533 - ERROR - Error in trace creation: 1 validation error for TaskOutput
+json_dict
+  Input should be a valid dictionary [type=dict_type, input_value='{\n  "products": [{\n   ...le purchase."]\n  }]\n}', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/dict_type
+2025-06-04 17:54:49,454 - INFO - Session Replay for default.session trace: https://app.agentops.ai/sessions?trace_id=8ded63680533f9576533ebc15bdf0a9c
