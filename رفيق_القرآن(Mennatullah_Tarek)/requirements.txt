@@ -1,0 +1,10 @@
+streamlit
+torch
+transformers
+pandas
+matplotlib
+requests
+deep-translator
+beautifulsoup4
+nest_asyncio
+
