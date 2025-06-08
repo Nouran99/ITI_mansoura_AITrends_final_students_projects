@@ -1,0 +1,9 @@
+crewai==0.126.0
+fpdf==1.7.2
+Pillow==11.2.1
+python-dotenv==1.1.0
+python_docx==1.1.2
+Requests==2.32.3
+streamlit==1.45.1
+streamlit_lottie==0.0.5
+youtube_transcript_api==1.0.3
