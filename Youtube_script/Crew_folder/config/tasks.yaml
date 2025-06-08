@@ -1,0 +1,45 @@
+transcript_task:
+  description: >
+    Fetch the transcript for the {video_url} video. Focus on:
+    1. Retrieving the full transcript of spoken content
+    2. Preserving timestamps (if available)
+    3. Ensuring the transcript is complete and accurately reflects the video
+
+    Make sure the transcript is clean and usable for further processing.
+  expected_output: >
+    The full transcript of the video in plain text or structured format.
+    Include timestamps if available and ensure all spoken content is included.
+  agent: transcript
+  # context:
+  #   - controller_task
+
+instruction_task:
+  description: >
+    Process the video transcript according to {user-defined instructions}. By default, it returns the whole script . Focus on:
+    1. condensing the transcript if requested
+    2. Rewriting or translating the text if specified
+    3. Adapting the tone or structure (e.g., making bullet points or headlines)
+
+    Ensure the final output reflects the user's goals and instructions clearly.
+  expected_output: >
+    A clean, structured version of the transcript that meets the user's specific
+    instructions—such as summary, translation, or reformatted notes.
+  agent: instruction
+  context:
+    - transcript_task
+
+export_task:
+  description: >
+    Export the processed content to a downloadable {format}. Focus on:
+    1. Formatting the content in a professional, readable layout
+    2. Creating a PDF or Word document based on user preference
+    3. Ensuring proper structure, font, and styling for final output
+
+    Save the file in an accessible location and return the file path.
+  expected_output: >
+    A formatted PDF or Word document containing the final processed content,
+    ready for download or sharing. Include only the content processed without the status.
+  agent: export
+  context:
+    - instruction_task
+  output_file: output/final_document.{format}
