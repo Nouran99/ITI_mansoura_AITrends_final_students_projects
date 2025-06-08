@@ -1,34 +1,918 @@
 [
-  {
-    "id": 1,
-    "name_ar": "الفاتحة",
-    "verses_count": 7,
-    "revelation_place": "مكية",
-    "revelation_time": "في بداية البعثة",
-    "reasons": "تُعد من أوائل ما نزل، وتُفتتح بها الصلاة وتُعتبر أساسًا للدعاء والعبادة."
-  },
-  {
-    "id": 2,
-    "name_ar": "البقرة",
-    "verses_count": 286,
-    "revelation_place": "مدنية",
-    "revelation_time": "بعد الهجرة إلى المدينة",
-    "reasons": "نزلت لتأسيس أحكام الشريعة في المجتمع المدني، وتشمل أحكامًا كثيرة."
-  },
-  {
-    "id": 19,
-    "name_ar": "مريم",
-    "verses_count": 98,
-    "revelation_place": "مكية",
-    "revelation_time": "في العهد المكي قبل الهجرة",
-    "reasons": "نزلت لتثبيت النبي والمؤمنين، وسرد قصص الأنبياء، وبيان المعجزات."
-  },
-  {
-    "id": 112,
-    "name_ar": "الإخلاص",
-    "verses_count": 4,
-    "revelation_place": "مكية",
-    "revelation_time": "في العهد المكي",
-    "reasons": "ردًا على سؤال المشركين: صف لنا ربك."
-  }
+{
+"id": 1,
+"name_ar": "الفاتحة",
+"verses_count": 7,
+"revelation_place": "مكية",
+"revelation_time": "قبل الهجرة",
+"reasons": "افتُتِحت بها الصلاة وتُعتبر أساس الدعاء والعبادة."
+},
+{
+"id": 2,
+"name_ar": "البقرة",
+"verses_count": 286,
+"revelation_place": "مدنية",
+"revelation_time": "بعد الهجرة",
+"reasons": "آياتها نزلت في مناسبات متعددة، تتناول المؤمنين، الكافرين والمنافقين؛ مثل قوله تعالى “إن الذين كفروا” في أبي جهل ومن في ممّنه."
+},
+{
+"id": 3,
+"name_ar": "آل عمران",
+"verses_count": 200,
+"revelation_place": "مدنية",
+"revelation_time": "بعد الهجرة",
+"reasons": "نزلت بعد وفد نجران الذي ناقش النبي حول عيسى، وتناولت أحداث غزوة أحد."
+},
+{
+"id": 4,
+"name_ar": "النساء",
+"verses_count": 176,
+"revelation_place": "مدنية",
+"revelation_time": "بعد الهجرة",
+"reasons": "تحتوي على أحكام المواريث، الحقوق الاجتماعية، وتنظيم قضايا الأسرة."
+},
+{
+"id": 5,
+"name_ar": "المائدة",
+"verses_count": 120,
+"revelation_place": "مدنية",
+"revelation_time": "بعد الهجرة",
+"reasons": "تنظم الأطعمة الحلال والحرام، وذكر فيها قصة المائدة التي طلبها بعض اليهود من النبي."
+},
+{
+"id": 6,
+"name_ar": "الأنعام",
+"verses_count": 165,
+"revelation_place": "مكية",
+"revelation_time": "قبل الهجرة",
+"reasons": "تهدف إلى الربط بين التوحيد وبين التأمل في خلق الأنعام."
+},
+{
+"id": 7,
+"name_ar": "الأعراف",
+"verses_count": 206,
+"revelation_place": "مكية",
+"revelation_time": "قبل الهجرة",
+"reasons": "تحذّر من الشرك وتعرض قصص الأمم السابقة كموعظة."
+},
+{
+"id": 8,
+"name_ar": "الأنفال",
+"verses_count": 75,
+"revelation_place": "مدنية",
+"revelation_time": "بعد الهجرة",
+"reasons": "نزلت لتبيان أحكام توزيع الغنائم وتنظيم الشؤون العسكرية بعد بدر."
+},
+{
+"id": 9,
+"name_ar": "التوبة",
+"verses_count": 129,
+"revelation_place": "مدنية",
+"revelation_time": "بعد الهجرة",
+"reasons": "تناقش التوبة من الشرك والنفاق وتنظيم العلاقات مع المشركين."
+},
+{
+"id": 10,
+"name_ar": "يونس",
+"verses_count": 109,
+"revelation_place": "مكية",
+"revelation_time": "قبل الهجرة",
+"reasons": "لتثبيت الإيمان بقصص الأنبياء وتحذير من الكفر وعدم الإيمان."
+},
+{
+"id": 11,
+"name_ar": "هود",
+"verses_count": 123,
+"revelation_place": "مكية",
+"revelation_time": "قبل الهجرة",
+"reasons": "تحكي قصة هود لقومه كموعظة عن الاستقامة والثبات."
+},
+{
+"id": 12,
+"name_ar": "يوسف",
+"verses_count": 111,
+"revelation_place": "مكية",
+"revelation_time": "قبل الهجرة",
+"reasons": "نزلت بعد سؤال اليهود عن قصة يوسف، لتعزيز الثقة برسالة النبي عبر هذا السرد القرآني."
+},
+{
+"id": 13,
+"name_ar": "الرعد",
+"verses_count": 43,
+"revelation_place": "مدنية",
+"revelation_time": "بعد الهجرة",
+"reasons": "للهداية والتذكير بقدرة الله المتجلية في الظواهر الطبيعية مثل الرعد والصواعق."
+},
+{
+"id": 14,
+"name_ar": "إبراهيم",
+"verses_count": 52,
+"revelation_place": "مكية",
+"revelation_time": "قبل الهجرة",
+"reasons": "تحكي دعوة إبراهيم لتوحيد الله وتعرض حالة المؤمنين والكافرين."
+},
+{
+"id": 15,
+"name_ar": "الحجر",
+"verses_count": 99,
+"revelation_place": "مكية",
+"revelation_time": "قبل الهجرة",
+"reasons": "تبرز مصير الأمم التي كذّبت الرسل كموعظة عبر القصص التاريخية."
+},
+{
+"id": 16,
+"name_ar": "النحل",
+"verses_count": 128,
+"revelation_place": "مكية",
+"revelation_time": "قبل الهجرة",
+"reasons": "تشيد بنعم الله مثل النحل وتدعو للتأمل في آياته وتأكيد التوحيد."
+},
+{
+"id": 17,
+"name_ar": "الإسراء",
+"verses_count": 111,
+"revelation_place": "مكية",
+"revelation_time": "قبل الهجرة",
+"reasons": "تروي حادثة الإسراء والمعراج وتضمن توجيهات أخلاقية واجتماعية."
+},
+{
+"id": 18,
+"name_ar": "الكهف",
+"verses_count": 110,
+"revelation_place": "مكية",
+"revelation_time": "قبل الهجرة",
+"reasons": "لتثبيت الإيمان عبر قصص أهل الكهف، وأصحاب الجنة، وموسى والخضر."
+},
+{
+"id": 19,
+"name_ar": "مريم",
+"verses_count": 98,
+"revelation_place": "مكية",
+"revelation_time": "قبل الهجرة",
+"reasons": "تسرد قصص الأنبياء ومعجزاتهم لتعزيز الإيمان وتأكيد التوحيد."
+},
+{
+"id": 20,
+"name_ar": "طه",
+"verses_count": 135,
+"revelation_place": "مكية",
+"revelation_time": "قبل الهجرة",
+"reasons": "هدفها تهيئة النبي بالرحمة والسكينة، وذكر قصة موسى لتثبيته."
+},
+  
+{
+"id": 21,
+"name_ar": "الأنبياء",
+"verses_count": 112,
+"revelation_place": "مكية",
+"revelation_time": "قبل الهجرة",
+"reasons": "نزلت لتقرير الحساب الآتي والتحذير من تحريف المشركين؛ تضمنت ذكر قصص الأنبياء كموعظة وعبرة."
+},
+{
+"id": 22,
+"name_ar": "الحج",
+"verses_count": 78,
+"revelation_place": "مكية",
+"revelation_time": "قبل الهجرة",
+"reasons": "تحث على الحج والإنذار بيوم القيامة، مع تنظيم مناسك الحج وتعزيز التوحيد."
+},
+{
+"id": 23,
+"name_ar": "المؤمنون",
+"verses_count": 118,
+"revelation_place": "مكية",
+"revelation_time": "قبل الهجرة",
+"reasons": "تعرض صفات المؤمنين الحقيقيين لتحقيق زرع الإيمان، وتصحيح المغالاة في العبادة."
+},
+{
+"id": 24,
+"name_ar": "النّور",
+"verses_count": 64,
+"revelation_place": "مدنية",
+"revelation_time": "بعد الهجرة",
+"reasons": "تنظم الآداب الاجتماعية (كالحجاب والزفاف) وتبين حدود الأعراض والزنا."
+},
+{
+"id": 25,
+"name_ar": "الفرقان",
+"verses_count": 77,
+"revelation_place": "مكية",
+"revelation_time": "قبل الهجرة",
+"reasons": "للتفرقة بين الحق والباطل، وتحذير المشركين بتبعات إنكار الرسالة."
+},
+{
+"id": 26,
+"name_ar": "الشعراء",
+"verses_count": 227,
+"revelation_place": "مكية",
+"revelation_time": "قبل الهجرة",
+"reasons": "نزلت لمجابهة شعراء مشركين عمدوا للتجريح، وتؤكد على صدق الرسول عبر قصص أنبياء."
+},
+{
+"id": 27,
+"name_ar": "النمل",
+"verses_count": 93,
+"revelation_place": "مكية",
+"revelation_time": "قبل الهجرة",
+"reasons": "لتربية النفوس عبر قصة سليمان والنمل، وإظهار تدبير الله الدقيق."
+},
+{
+"id": 28,
+"name_ar": "القصص",
+"verses_count": 88,
+"revelation_place": "مكية",
+"revelation_time": "قبل الهجرة",
+"reasons": "تحكي قصة موسى وفرعون لتعليم الصبر، وترغيب النبي في الدعوة."
+},
+{
+"id": 29,
+"name_ar": "العنكبوت",
+"verses_count": 69,
+"revelation_place": "مكية",
+"revelation_time": "قبل الهجرة",
+"reasons": "تعبر عن الإيحاء والاحتماء بالغير، وتحذر من بناء العبادة على غير أساس."
+},
+{
+"id": 30,
+"name_ar": "الروم",
+"verses_count": 60,
+"revelation_place": "مكية",
+"revelation_time": "قبل الهجرة",
+"reasons": "نزلت لتبشير بانتصار الروم على الفرس وتعزيز الثقة بوعد الله."
+},
+{
+"id": 31,
+"name_ar": "لقمان",
+"verses_count": 34,
+"revelation_place": "مكية",
+"revelation_time": "قبل الهجرة",
+"reasons": "للدلالة على الحكمة التي تضرُسُ بها التربية، عبر وصايا لقمان لولده."
+},
+{
+"id": 32,
+"name_ar": "السجدة",
+"verses_count": 30,
+"revelation_place": "مكية",
+"revelation_time": "قبل الهجرة",
+"reasons": "تشجع على السجود والخسوع لله، وتذكر بآثار البرزخ والبعث."
+},
+{
+"id": 33,
+"name_ar": "الأحزاب",
+"verses_count": 73,
+"revelation_place": "مدنية",
+"revelation_time": "بعد الهجرة",
+"reasons": "نزلت لتنظيم العلاقات الاجتماعية (كالنسب والحياء) ولدرس غزوة الخندق."
+},
+{
+"id": 34,
+"name_ar": "سبأ",
+"verses_count": 54,
+"revelation_place": "مكية",
+"revelation_time": "قبل الهجرة",
+"reasons": "تبرز معجزة شكر نعمة الله عبر قصة سبأ وبنيها المهملين."
+},
+{
+"id": 35,
+"name_ar": "فاطر",
+"verses_count": 45,
+"revelation_place": "مكية",
+"revelation_time": "قبل الهجرة",
+"reasons": "تبرز خلق الله وتوحيده، وتوجّه الدعوة المذكورة “فاتح السموات”."
+},
+{
+"id": 36,
+"name_ar": "يس",
+"verses_count": 83,
+"revelation_place": "مكية",
+"revelation_time": "قبل الهجرة",
+"reasons": "من أجلي سور القرآن؛ لتثبيت القلب عبر قصص الموتى والعذاب والثبات."
+},
+{
+"id": 37,
+"name_ar": "الصافات",
+"verses_count": 182,
+"revelation_place": "مكية",
+"revelation_time": "قبل الهجرة",
+"reasons": "تحكي معجزات الأنبياء وترشد لوحدة الملائكة وشهادة التوحيد."
+},
+{
+"id": 38,
+"name_ar": "ص",
+"verses_count": 88,
+"revelation_place": "مكية",
+"revelation_time": "قبل الهجرة",
+"reasons": "تركّز على البلاغة التكوينية وعرض قضية البعث."
+},
+{
+"id": 39,
+"name_ar": "الزمر",
+"verses_count": 75,
+"revelation_place": "مكية",
+"revelation_time": "قبل الهجرة",
+"reasons": "لإبطال شبهات الشرك وتوضيح الثواب والعقاب بالعبادة."
+},
+{
+"id": 40,
+"name_ar": "غافر",
+"verses_count": 85,
+"revelation_place": "مكية",
+"revelation_time": "قبل الهجرة",
+"reasons": "لتأكيد التوحيد، وزرع الرجاء في مغفرة الله عبر قصة مؤمن آل فرعون."
+},
+ 
+{
+"id": 41,
+"name_ar": "فصلت",
+"verses_count": 54,
+"revelation_place": "مكية",
+"revelation_time": "قبل الهجرة",
+"reasons": "نزلت ردًا على استهزاء المشركين بالقرآن، وتأكيدًا على صدق الرسالة."
+},
+{
+"id": 42,
+"name_ar": "الشورى",
+"verses_count": 53,
+"revelation_place": "مكية",
+"revelation_time": "قبل الهجرة",
+"reasons": "نزلت لتوضيح أسس الشورى في الإسلام، وتأكيدًا على وحدة الرسالة."
+},
+{
+"id": 43,
+"name_ar": "الزخرف",
+"verses_count": 89,
+"revelation_place": "مكية",
+"revelation_time": "قبل الهجرة",
+"reasons": "نزلت ردًا على تعنت المشركين، وتأكيدًا على عظمة القرآن."
+},
+{
+"id": 44,
+"name_ar": "الدخان",
+"verses_count": 59,
+"revelation_place": "مكية",
+"revelation_time": "قبل الهجرة",
+"reasons": "نزلت تحذيرًا للمكذبين بعذاب قريب، وتأكيدًا على صدق الرسالة."
+},
+{
+"id": 45,
+"name_ar": "الجاثية",
+"verses_count": 37,
+"revelation_place": "مكية",
+"revelation_time": "قبل الهجرة",
+"reasons": "نزلت لتوضيح حال الأمم يوم القيامة، وتأكيدًا على عظمة الله."
+},
+{
+"id": 46,
+"name_ar": "الأحقاف",
+"verses_count": 35,
+"revelation_place": "مكية",
+"revelation_time": "قبل الهجرة",
+"reasons": "نزلت لتوضيح مصير عاد وثمود، وتأكيدًا على صدق الرسالة."
+},
+{
+"id": 47,
+"name_ar": "محمد",
+"verses_count": 38,
+"revelation_place": "مدنية",
+"revelation_time": "بعد الهجرة",
+"reasons": "نزلت لتوضيح صفات المؤمنين، وتأكيدًا على ضرورة اتباع النبي."
+},
+{
+"id": 48,
+"name_ar": "الفتح",
+"verses_count": 29,
+"revelation_place": "مدنية",
+"revelation_time": "بعد الهجرة",
+"reasons": "نزلت تبشيرًا بفتح مكة، وتأكيدًا على نصر الله للمؤمنين."
+},
+{
+"id": 49,
+"name_ar": "الحجرات",
+"verses_count": 18,
+"revelation_place": "مدنية",
+"revelation_time": "بعد الهجرة",
+"reasons": "نزلت لتوضيح آداب التعامل بين المسلمين، وتأكيدًا على وحدة الأمة."
+},
+{
+"id": 50,
+"name_ar": "ق",
+"verses_count": 45,
+"revelation_place": "مكية",
+"revelation_time": "قبل الهجرة",
+"reasons": "نزلت لتأكيد البعث والحساب، وتوضيح مصير المكذبين."
+},
+{
+"id": 51,
+"name_ar": "الذاريات",
+"verses_count": 60,
+"revelation_place": "مكية",
+"revelation_time": "قبل الهجرة",
+"reasons": "نزلت لتوضيح دلائل قدرة الله، وتأكيدًا على البعث."
+},
+{
+"id": 52,
+"name_ar": "الطور",
+"verses_count": 49,
+"revelation_place": "مكية",
+"revelation_time": "قبل الهجرة",
+"reasons": "نزلت لتأكيد البعث والحساب، وتوضيح مصير المكذبين."
+},
+{
+"id": 53,
+"name_ar": "النجم",
+"verses_count": 62,
+"revelation_place": "مكية",
+"revelation_time": "قبل الهجرة",
+"reasons": "نزلت لتأكيد صدق الوحي، وتوضيح مصير المكذبين."
+},
+{
+"id": 54,
+"name_ar": "القمر",
+"verses_count": 55,
+"revelation_place": "مكية",
+"revelation_time": "قبل الهجرة",
+"reasons": "نزلت لتأكيد قدرة الله، وتوضيح مصير المكذبين."
+},
+{
+"id": 55,
+"name_ar": "الرحمن",
+"verses_count": 78,
+"revelation_place": "مكية",
+"revelation_time": "قبل الهجرة",
+"reasons": "نزلت لتوضيح نعم الله على الإنسان، وتأكيدًا على عظمته."
+},
+{
+"id": 56,
+"name_ar": "الواقعة",
+"verses_count": 96,
+"revelation_place": "مكية",
+"revelation_time": "قبل الهجرة",
+"reasons": "نزلت لتوضيح مصير الناس يوم القيامة، وتأكيدًا على البعث."
+},
+{
+"id": 57,
+"name_ar": "الحديد",
+"verses_count": 29,
+"revelation_place": "مدنية",
+"revelation_time": "بعد الهجرة",
+"reasons": "نزلت لتأكيد قوة الله، وتوضيح أهمية الإيمان والعمل الصالح."
+},
+{
+"id": 58,
+"name_ar": "المجادلة",
+"verses_count": 22,
+"revelation_place": "مدنية",
+"revelation_time": "بعد الهجرة",
+"reasons": "نزلت لتوضيح آداب الحوار، وتأكيدًا على العدل والمساواة."
+},
+{
+"id": 59,
+"name_ar": "الحشر",
+"verses_count": 24,
+"revelation_place": "مدنية",
+"revelation_time": "بعد الهجرة",
+"reasons": "نزلت لتوضيح مصير المنافقين، وتأكيدًا على وحدة الأمة."
+},
+{
+"id": 60,
+"name_ar": "الممتحنة",
+"verses_count": 13,
+"revelation_place": "مدنية",
+"revelation_time": "بعد الهجرة",
+"reasons": "نزلت لتوضيح آداب التعامل مع غير المسلمين، وتأكيدًا على الولاء لله ورسوله."
+},
+  
+{
+"id": 61,
+"name_ar": "الصف",
+"verses_count": 14,
+"revelation_place": "مدنية",
+"revelation_time": "بعد الهجرة",
+"reasons": "نزلت لتأكيد أهمية الجهاد في سبيل الله، وتحفيز المسلمين على العمل الجماعي."
+},
+{
+"id": 62,
+"name_ar": "الجمعة",
+"verses_count": 11,
+"revelation_place": "مدنية",
+"revelation_time": "بعد الهجرة",
+"reasons": "نزلت بسبب انشغال بعض المسلمين بالتجارة عن صلاة الجمعة، فأنزل الله الآية: (وإذا رأوا تجارة أو لهواً انفضوا إليها وتركوك قائماً) [الجمعة: 11]."
+},
+{
+"id": 63,
+"name_ar": "المنافقون",
+"verses_count": 11,
+"revelation_place": "مدنية",
+"revelation_time": "بعد الهجرة",
+"reasons": "نزلت بسبب تصرفات عبد الله بن أبي بن سلول، رأس المنافقين، الذي حاول إشعال الفتنة بين المسلمين."
+},
+{
+"id": 64,
+"name_ar": "التغابن",
+"verses_count": 18,
+"revelation_place": "مدنية",
+"revelation_time": "بعد الهجرة",
+"reasons": "نزلت لتوضيح أن ما أصاب المسلمين من مصائب هو بسبب أعمالهم، ولتأكيد على أن الله هو المالك لكل شيء."
+},
+{
+"id": 65,
+"name_ar": "الطلاق",
+"verses_count": 12,
+"revelation_place": "مدنية",
+"revelation_time": "بعد الهجرة",
+"reasons": "نزلت لتوضيح أحكام الطلاق والعدة، ولتحديد حقوق وواجبات الزوجين بعد الطلاق."
+},
+{
+"id": 66,
+"name_ar": "التحريم",
+"verses_count": 12,
+"revelation_place": "مدنية",
+"revelation_time": "بعد الهجرة",
+"reasons": "نزلت بسبب حادثة تحريم النبي صلى الله عليه وسلم لعسل كان يشربه، ولتوضيح بعض أحكام العلاقات الزوجية."
+},
+{
+"id": 67,
+"name_ar": "الملك",
+"verses_count": 30,
+"revelation_place": "مكية",
+"revelation_time": "قبل الهجرة",
+"reasons": "نزلت لتأكيد عظمة الله وقدرته على خلق الكون، ولتذكير الإنسان بآيات الله في السماوات والأرض."
+},
+{
+"id": 68,
+"name_ar": "القلم",
+"verses_count": 52,
+"revelation_place": "مكية",
+"revelation_time": "قبل الهجرة",
+"reasons": "نزلت لتوجيه النبي صلى الله عليه وسلم إلى الصبر على أذى المشركين، ولتأكيد على حسن الخلق."
+},
+{
+"id": 69,
+"name_ar": "الحاقة",
+"verses_count": 52,
+"revelation_place": "مكية",
+"revelation_time": "قبل الهجرة",
+"reasons": "نزلت لتوضيح حقيقة يوم القيامة، ولتذكير الناس بعواقب أعمالهم."
+},
+{
+"id": 70,
+"name_ar": "المعارج",
+"verses_count": 44,
+"revelation_place": "مكية",
+"revelation_time": "قبل الهجرة",
+"reasons": "نزلت لتوضيح صفات المؤمنين، ولتذكير الناس بعواقب أعمالهم في الآخرة."
+},
+{
+"id": 71,
+"name_ar": "نوح",
+"verses_count": 28,
+"revelation_place": "مكية",
+"revelation_time": "قبل الهجرة",
+"reasons": "نزلت لتوضيح قصة نبي الله نوح مع قومه، ولتأكيد على ضرورة الإيمان والطاعة."
+},
+{
+"id": 72,
+"name_ar": "الجن",
+"verses_count": 28,
+"revelation_place": "مكية",
+"revelation_time": "قبل الهجرة",
+"reasons": "نزلت لتوضيح حقيقة الجن، ولتأكيد على أن الله هو خالق كل شيء."
+},
+{
+"id": 73,
+"name_ar": "المزمل",
+"verses_count": 20,
+"revelation_place": "مكية",
+"revelation_time": "قبل الهجرة",
+"reasons": "نزلت لتوجيه النبي صلى الله عليه وسلم إلى العبادة والقيام بالليل، ولتأكيد على أهمية الصلاة."
+},
+{
+"id": 74,
+"name_ar": "المدثر",
+"verses_count": 56,
+"revelation_place": "مكية",
+"revelation_time": "قبل الهجرة",
+"reasons": "نزلت لتوجيه النبي صلى الله عليه وسلم إلى الدعوة، ولتوضيح مسؤولياته كرسول."
+},
+{
+"id": 75,
+"name_ar": "القيامة",
+"verses_count": 40,
+"revelation_place": "مكية",
+"revelation_time": "قبل الهجرة",
+"reasons": "نزلت لتأكيد البعث والحساب، ولتذكير الناس بيوم القيامة."
+},
+{
+"id": 76,
+"name_ar": "الإنسان",
+"verses_count": 31,
+"revelation_place": "مكية",
+"revelation_time": "قبل الهجرة",
+"reasons": "نزلت لتوضيح مراحل خلق الإنسان، ولتأكيد على ضرورة الشكر والطاعة لله."
+},
+{
+"id": 77,
+"name_ar": "المرسلات",
+"verses_count": 50,
+"revelation_place": "مكية",
+"revelation_time": "قبل الهجرة",
+"reasons": "نزلت لتأكيد على البعث والحساب، ولتذكير الناس بعواقب أعمالهم."
+},
+{
+"id": 78,
+"name_ar": "النبأ",
+"verses_count": 40,
+"revelation_place": "مكية",
+"revelation_time": "قبل الهجرة",
+"reasons": "نزلت لتوضيح حقيقة يوم القيامة، ولتذكير الناس بعواقب أعمالهم."
+},
+{
+"id": 79,
+"name_ar": "النازعات",
+"verses_count": 46,
+"revelation_place": "مكية",
+"revelation_time": "قبل الهجرة",
+"reasons": "نزلت لتأكيد البعث والحساب، ولتذكير الناس بعواقب أعمالهم."
+},
+{
+"id": 80,
+"name_ar": "عبس",
+"verses_count": 42,
+"revelation_place": "مكية",
+"revelation_time": "قبل الهجرة",
+"reasons": "نزلت بسبب عبوس النبي صلى الله عليه وسلم في وجه الأعمى عبد الله بن أم مكتوم، فعاتبه الله على ذلك."
+},
+
+{
+"id": 81,
+"name_ar": "التكوير",
+"verses_count": 29,
+"revelation_place": "مكية",
+"revelation_time": "قبل الهجرة",
+"reasons": "نزلت لتوضيح أحداث يوم القيامة، وتذكير الناس بعواقب أعمالهم."
+},
+{
+"id": 82,
+"name_ar": "الإنفطار",
+"verses_count": 19,
+"revelation_place": "مكية",
+"revelation_time": "قبل الهجرة",
+"reasons": "نزلت لتوضيح أحداث يوم القيامة، وتذكير الناس بعواقب أعمالهم."
+},
+{
+"id": 83,
+"name_ar": "المطففين",
+"verses_count": 36,
+"revelation_place": "مكية",
+"revelation_time": "قبل الهجرة",
+"reasons": "نزلت بسبب تساؤل المشركين عن يوم القيامة، فأنزل الله السورة لتوضيح ذلك."
+},
+{
+"id": 84,
+"name_ar": "الإنشقاق",
+"verses_count": 25,
+"revelation_place": "مكية",
+"revelation_time": "قبل الهجرة",
+"reasons": "نزلت لتوضيح أحداث يوم القيامة، وتذكير الناس بعواقب أعمالهم."
+},
+{
+"id": 85,
+"name_ar": "البروج",
+"verses_count": 22,
+"revelation_place": "مكية",
+"revelation_time": "قبل الهجرة",
+"reasons": "نزلت لتأكيد أن الله هو المنتقم من الظالمين، وتذكير الناس بعواقب أعمالهم."
+},
+{
+"id": 86,
+"name_ar": "الطارق",
+"verses_count": 17,
+"revelation_place": "مكية",
+"revelation_time": "قبل الهجرة",
+"reasons": "نزلت لتوضيح أن الله هو خالق كل شيء، وتذكير الناس بعواقب أعمالهم."
+},
+{
+"id": 87,
+"name_ar": "الأعلى",
+"verses_count": 19,
+"revelation_place": "مكية",
+"revelation_time": "قبل الهجرة",
+"reasons": "نزلت لتأكيد عظمة الله وقدرته، وتذكير الناس بعواقب أعمالهم."
+},
+{
+"id": 88,
+"name_ar": "الغاشية",
+"verses_count": 26,
+"revelation_place": "مكية",
+"revelation_time": "قبل الهجرة",
+"reasons": "نزلت لتوضيح أحداث يوم القيامة، وتذكير الناس بعواقب أعمالهم."
+},
+{
+"id": 89,
+"name_ar": "الفجر",
+"verses_count": 30,
+"revelation_place": "مكية",
+"revelation_time": "قبل الهجرة",
+"reasons": "نزلت لتذكير الناس بعواقب أعمالهم، وتوضيح أن الله هو المنتقم من الظالمين."
+},
+{
+"id": 90,
+"name_ar": "البلد",
+"verses_count": 20,
+"revelation_place": "مكية",
+"revelation_time": "قبل الهجرة",
+"reasons": "نزلت لتأكيد أن الله هو خالق كل شيء، وتذكير الناس بعواقب أعمالهم."
+},
+{
+"id": 91,
+"name_ar": "الشمس",
+"verses_count": 15,
+"revelation_place": "مكية",
+"revelation_time": "قبل الهجرة",
+"reasons": "نزلت لتوضيح أن الله هو خالق كل شيء، وتذكير الناس بعواقب أعمالهم."
+},
+{
+"id": 92,
+"name_ar": "الليل",
+"verses_count": 21,
+"revelation_place": "مكية",
+"revelation_time": "قبل الهجرة",
+"reasons": "نزلت لتوضيح أن الله هو خالق كل شيء، وتذكير الناس بعواقب أعمالهم."
+},
+{
+"id": 93,
+"name_ar": "الضحى",
+"verses_count": 11,
+"revelation_place": "مكية",
+"revelation_time": "قبل الهجرة",
+"reasons": "نزلت لتأكيد على أن الله لم يترك نبيه وحيدًا، وللتخفيف عنه."
+},
+{
+"id": 94,
+"name_ar": "الشرح",
+"verses_count": 8,
+"revelation_place": "مكية",
+"revelation_time": "قبل الهجرة",
+"reasons": "نزلت لتطمين النبي والتأكيد على فتح الله له."
+},
+{
+"id": 95,
+"name_ar": "التين",
+"verses_count": 8,
+"revelation_place": "مكية",
+"revelation_time": "قبل الهجرة",
+"reasons": "نزلت لتأكيد على مكانة بعض المواضع المقدسة، والتحذير من تكذيب الرسالة."
+},
+{
+"id": 96,
+"name_ar": "العلق",
+"verses_count": 19,
+"revelation_place": "مكية",
+"revelation_time": "بداية الوحي",
+"reasons": "أنَّها كانت بداية الوحي السماوي، ونزول جبريل -عليه السلام- وتلقي الرسول -صلى الله عليه وسلم- لأول كلام الله."
+},
+{
+"id": 97,
+"name_ar": "القدر",
+"verses_count": 5,
+"revelation_place": "مكية",
+"revelation_time": "قبل الهجرة",
+"reasons": "نزلت لتبيان فضل ليلة القدر وأهميتها."
+},
+{
+"id": 98,
+"name_ar": "البينة",
+"verses_count": 8,
+"revelation_place": "مدنية",
+"revelation_time": "بعد الهجرة",
+"reasons": "نزلت لتأكيد وجوب الإيمان بالرسول والكتاب، وبيان بطلان الشرك."
+},
+{
+"id": 99,
+"name_ar": "الزلزلة",
+"verses_count": 8,
+"revelation_place": "مدنية",
+"revelation_time": "بعد الهجرة",
+"reasons": "نزلت لتوضيح أحداث يوم القيامة بدقة."
+},
+{
+"id": 100,
+"name_ar": "العاديات",
+"verses_count": 11,
+"revelation_place": "مكية",
+"revelation_time": "قبل الهجرة",
+"reasons": "نزلت لتذكير الناس بجحودهم لنعم الله."
+},
+{
+"id": 101,
+"name_ar": "القارعة",
+"verses_count": 11,
+"revelation_place": "مكية",
+"revelation_time": "قبل الهجرة",
+"reasons": "نزلت لتوضيح أحداث يوم القيامة وعواقبها."
+},
+{
+"id": 102,
+"name_ar": "التكاثر",
+"verses_count": 8,
+"revelation_place": "مكية",
+"revelation_time": "قبل الهجرة",
+"reasons": "نزلت لتذكير الناس بضرورة التركيز على الآخرة بدل التفاخر بالدنيا."
+},
+{
+"id": 103,
+"name_ar": "العصر",
+"verses_count": 3,
+"revelation_place": "مكية",
+"revelation_time": "قبل الهجرة",
+"reasons": "نزلت لتأكيد أهمية الوقت والعمل الصالح."
+},
+{
+"id": 104,
+"name_ar": "الهمزة",
+"verses_count": 9,
+"revelation_place": "مكية",
+"revelation_time": "قبل الهجرة",
+"reasons": "نزلت لتوبيخ الذين يعيبون الناس ويهزؤون بهم."
+},
+{
+"id": 105,
+"name_ar": "الفيل",
+"verses_count": 5,
+"revelation_place": "مكية",
+"revelation_time": "قبل الهجرة",
+"reasons": "نزلت لتذكير قدرة الله على حماية الكعبة من أبرهة وجيشه."
+},
+{
+"id": 106,
+"name_ar": "قريش",
+"verses_count": 4,
+"revelation_place": "مكية",
+"revelation_time": "قبل الهجرة",
+"reasons": "نزلت لتذكير قريش بنعم الله عليهم وتحفيزهم على عبادته."
+},
+{
+"id": 107,
+"name_ar": "الماعون",
+"verses_count": 7,
+"revelation_place": "مكية",
+"revelation_time": "قبل الهجرة",
+"reasons": "نزلت لتوبيخ الذين لا يساعدون المحتاجين ويتكبرون."
+},
+{
+"id": 108,
+"name_ar": "الكوثر",
+"verses_count": 3,
+"revelation_place": "مكية",
+"revelation_time": "قبل الهجرة",
+"reasons": "نزلت لتعزية النبي صلى الله عليه وسلم بنعم الله."
+},
+{
+"id": 109,
+"name_ar": "الكافرون",
+"verses_count": 6,
+"revelation_place": "مكية",
+"revelation_time": "قبل الهجرة",
+"reasons": "نزلت لتأكيد براءة الإسلام من الشرك."
+},
+{
+"id": 110,
+"name_ar": "النصر",
+"verses_count": 3,
+"revelation_place": "مدنية",
+"revelation_time": "بعد الهجرة",
+"reasons": "نزلت للاحتفال بنصر الله للمسلمين ودخول الناس في الإسلام."
+},
+{
+"id": 111,
+"name_ar": "المسد",
+"verses_count": 5,
+"revelation_place": "مكية",
+"revelation_time": "قبل الهجرة",
+"reasons": "نزلت في حق أبي لهب وزوجته بسبب عدائهم للنبي."
+},
+{
+"id": 112,
+"name_ar": "الإخلاص",
+"verses_count": 4,
+"revelation_place": "مكية",
+"revelation_time": "قبل الهجرة",
+"reasons": "نزلت لتأكيد وحدانية الله."
+},
+{
+"id": 113,
+"name_ar": "الفلق",
+"verses_count": 5,
+"revelation_place": "مكية",
+"revelation_time": "قبل الهجرة",
+"reasons": "نزلت للوقاية من الشرور والحسد."
+},
+{
+"id": 114,
+"name_ar": "الناس",
+"verses_count": 6,
+"revelation_place": "مكية",
+"revelation_time": "قبل الهجرة",
+"reasons": "نزلت للوقاية من وسوسة الشيطان وأذى الجن والإنس."
+}
 ]
