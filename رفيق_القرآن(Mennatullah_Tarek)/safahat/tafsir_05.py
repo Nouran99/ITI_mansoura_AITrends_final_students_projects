@@ -159,7 +159,7 @@ def app():
 
         st.download_button(
             label="💾 تحميل التفسير كـ CSV",
-            data=csv_buffer.getvalue(),
+            data=csv_buffer.getvalue().encode('utf-8-sig'),
             file_name=f"tafsir_{surah_name}_{ayah_number}.csv",
             mime="text/csv"
         )
