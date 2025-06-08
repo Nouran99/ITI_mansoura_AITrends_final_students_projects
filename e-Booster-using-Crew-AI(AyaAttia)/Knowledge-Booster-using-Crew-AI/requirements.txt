@@ -1,0 +1,6 @@
+gradio[oauth,mcp]==5.33.0
+google-generativeai
+cohere
+crewai
+crewai_tools
+langchain_community
