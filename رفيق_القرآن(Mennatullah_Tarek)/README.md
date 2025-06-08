@@ -107,6 +107,10 @@ rafiq-alquran/
 
 لأي استفسارات أو اقتراحات أو تعاون:
 **البريد الإلكتروني:** [menatarek04@gmail.com](mailto:menatarek04@gmail.com)
+**LinkedIn:** [linkedin.com/in/menatarek](https://www.linkedin.com/in/mennatullahtarek/)
+**GitHub:** [github.com/MennatullahTarek](https://github.com/MennatullahTarek)
+
+
 
 ---
 
