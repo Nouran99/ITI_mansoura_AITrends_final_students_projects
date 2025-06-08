@@ -77,7 +77,8 @@ Each agent uses tools defined in `Crew_folder/Tools`, including:
 ---
 
 ## 🚀 Running the App
-
+you can try the app:
+https://youtube-script2025.streamlit.app/
 ### 🧪 Run the Crew pipeline
 
 ```bash
