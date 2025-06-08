@@ -3,6 +3,7 @@ from app.views.initial_view import render_initial_view
 from app.views.reasoning_view import render_user_reasoning
 from app.views.plan_view import render_plan
 from app.views.interactive_plan_view import render_interactive_plan
+from app.views.resources_view import render_resources_view
 from app.views.footer import render_footer
 from dotenv import load_dotenv
 import os
@@ -29,7 +30,8 @@ defaults = {
     "plan_result": "",
     "json_plan": "",
     "learning_goal":"",
-    "saved_answers":[]
+    "saved_answers":[],
+    "resources_fetched":False
 }
 for key, val in defaults.items():
     st.session_state.setdefault(key, val)
@@ -38,4 +40,5 @@ render_initial_view(defaults)
 render_user_reasoning()
 render_plan()
 render_interactive_plan()
+render_resources_view()
 render_footer()
