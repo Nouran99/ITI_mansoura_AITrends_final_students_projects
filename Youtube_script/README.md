@@ -50,8 +50,8 @@ Each agent uses tools defined in `Crew_folder/Tools`, including:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/youtube-script-summarizer.git
-   cd youtube-script-summarizer
+   git clone (https://github.com/yasminkadry/Youtube_Script_agents)
+   cd Youtube_Script_agents
 ````
 
 2. **Create a virtual environment and activate it**
