@@ -2,7 +2,7 @@
 
 PublishMate is an AI-powered academic assistant that guides you through the research process — from identifying trending topics to drafting your research paper.
 
-[🔗 Live Demo](https://publishmatecrew.streamlit.app/)
+[🔗 Link to PublishMate](https://publishmatecrew.streamlit.app/)
 
 
 ## 🎥 Demo
