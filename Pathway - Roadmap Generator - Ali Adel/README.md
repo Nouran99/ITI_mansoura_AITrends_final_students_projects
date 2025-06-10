@@ -85,9 +85,6 @@ The system is powered by four custom agents, each with a single responsibility. 
 
 Each agent receives only what it needs and passes its output directly to the next — keeping the pipeline simple, debuggable, and explainable.
 
-
-Got it. Here's the clean version of the **🛠️ Installation** section without markdown syntax blocks:
-
 ---
 
 ## 🛠️ Installation
