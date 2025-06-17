@@ -1,0 +1,8 @@
+openai
+streamlit
+python-dotenv
+pytz
+google-api-python-client
+google-auth
+google-auth-oauthlib
+langchain
